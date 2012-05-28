@@ -1,0 +1,34 @@
+---
+layout: landing
+title: Software (mostly Sakai), Education (mostly ePortfolio), Complaints (mostly unreasonable), Thoughts (mostly unintelligible)
+tagline: Most recent posts
+---
+{% include JB/setup %}
+
+<div id="home" class="row">
+  <div class="span8">
+      <!-- iterate through the posts on this page -->
+      {% for page in paginator.posts %}
+        <div class="post">
+          <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+          <p class="meta">{{ page.date | date: "%B %e, %Y" }}</p>
+            {{ page.content | postmorefilter: page.url, "Continue reading &rarr;" }}
+        </div>
+      {% endfor %}
+
+      <!-- links to prev and next pages for browsing thru archives -->
+      {% if paginator.previous_page == 1 %}
+        <span id="newer"><a href="/">&laquo;&laquo; Newer Entries</a></span>
+      {% elsif paginator.previous_page %}
+        <span id="newer"><a href="/page{{ paginator.previous_page }}">&laquo;&laquo; Newer Entries</a></span>
+      {% endif %}
+      {% if paginator.next_page %}
+        <span id="older"><a href="/page{{ paginator.next_page }}">Older Entries &raquo;&raquo;</a></span>
+      {% endif %}
+  </div>
+  <div class="span4">
+    <h2>About</h2>
+    <p>...</p>
+  </div>
+</div>
+

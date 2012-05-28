@@ -1,4 +1,7 @@
 /* Override some defaults */
+html {
+  overflow-y: scroll;
+}
 html, body {
   background-color: #eee;
 }
