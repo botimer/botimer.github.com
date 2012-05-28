@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Software (mostly Sakai), Education (mostly ePortfolio), Complaints (mostly unreasonable), Thoughts (mostly unintelligible) &mdash; noah</title>
+    
+    <meta name="author" content="Noah Botimer">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/pygments-manni.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">noah</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Most recent posts</h1>
+</div>
+
+
+
+<div id="home" class="row">
+  <div class="span8">
+      <!-- iterate through the posts on this page -->
+      
+        <div class="post">
+          <h1><a href="/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker">Sakai JSONP callbacks in Entity Broker</a></h1>
+          <p class="meta">July 25, 2009</p>
+            <p>So, I&#8217;m going to try to get back in the habit. I owe Ray two posts, so this is a warmup. Anyway&#8230;</p>
+
+<p>I&#8217;ve just added JSONP callback support to Entity Broker. This allows you to make a data feed that can be used for mashups. The normal JSON feeds don&#8217;t allow for this because, when the script tag is added, the object literal just drops into the ether &#8211; it needs to be handed off to a function. Plenty of others are using this technique now and it&#8217;s well supported in things like jQuery; just search around.</p>
+
+<p>The important bit is that you can either use the default callback function (jsonEntityFeed) or specify your own. You just craft a URL to the entity and optionally give a parameter. For example: <code>
+http://sakai/direct/entity-prefix/some-id.jsonp
+http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=myCustomCallback</code></p>
+
+<p>If you are using jQuery, you can use the getJSON method to call an inline, unnamed callback like this: <code>
+$.getJSON(&#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=?&#39;,
+    function(data) {
+        alert(data.whatever.element[0].here);
+    });
+</code></p>
+
+<p>It&#8217;s all pretty straightforward and tracked in <a href='http://jira.sakaiproject.org/browse/SAK-16757'>SAK-16757</a>. I imagine that this will get tagged at some point, but it&#8217;s just in trunk for now. Happy Hacking! -NB</p>
+        </div>
+      
+        <div class="post">
+          <h1><a href="/posts/2008/11/23/aptana-vista-php-oracle-xe-victory">Aptana + Vista + PHP + Oracle XE == Victory!</a></h1>
+          <p class="meta">November 23, 2008</p>
+            <p>So, I&#8217;m doing some development against Oracle with PHP and really wanted <a href='http://www.oracle.com/technology/products/database/xe/index.html'>Express Edition</a> on a local machine to be able to hack without a lot of messing around (my other Oracle instances are behind VPNs, etc.)  I&#8217;ve also been thinking about hooking my desktop back up for one of those environment changes that results in a productivity boost.  A third factor is that I want to do this development in <a href='http://aptana.com/studio'>Aptana</a> because, well, it&#8217;s just plain sweet.  Easily said&#8230;</p>
+<p class='more'><a href='/posts/2008/11/23/aptana-vista-php-oracle-xe-victory'>Continue reading &rarr;</a></p>
+        </div>
+      
+        <div class="post">
+          <h1><a href="/posts/2008/10/25/adium-logs-make-it-very-slow">Adium logs make it very slow</a></h1>
+          <p class="meta">October 25, 2008</p>
+            <p>I was seeing somewhere between 30 seconds and a minute to get to the keychain login, and another 30 seconds to bring up a contact list. Clean out the logs, relaunch &#8211; about 4 seconds for each.</p>
+
+<p>The logs live in <code>~/Library/Application Support/Adium 2.0/Users/Default</code>. Remove or archive them and watch it fly. -NB</p>
+        </div>
+      
+        <div class="post">
+          <h1><a href="/posts/2008/10/02/php-json_encode-is-quirky">PHP json_encode is quirky</a></h1>
+          <p class="meta">October  2, 2008</p>
+            <p>So, amidst an interesting fight with CakePHP, I was fortunate enough to spot a quirk in <a href='http://php.net/json_encode'><code>json_encode</code></a> when passing arrays. If you have a typical ordinal array, life is good. If you have a typical associative array, life is good. The quirk is in how PHP decides what you have.</p>
+
+<p><em>We define &#8220;life is good&#8221; here as: you pass something without meaningful keys, you get an array; you pass something with meaningful keys, you get an object.</em></p>
+
+<p>When you have a regular old array of values (or rows of a result set, in my case) and you filter it with, e.g., <a href='http://php.net/array_filter'><code>array_filter</code></a>, you can end up with holes in the ordinal numbering.  This delights <a href='http://php.net/json_encode'><code>json_encode</code></a>, which displays its exceptional, &#8220;just works&#8221; intelligence, giving you an object full of numeric indexes pointing at what you thought would be unnamed items in an array.  In some cases, this makes no difference but, in some, it can be a big problem.</p>
+
+<p>Fortunately, I&#8217;m generally in tune enough with the stylings of PHP that I went straight to trying <a href='http://php.net/array_values'><code>array_values</code></a> &#8211; and now, all is right with the world. Just wrap any <a href='http://php.net/array_filter'><code>array_filter</code></a> calls with <a href='http://php.net/array_values'><code>array_values</code></a> if you plan to turn the goods into JSON. -NB</p>
+        </div>
+      
+        <div class="post">
+          <h1><a href="/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints">Stupid Eclipse trick — Dynamic Tracing with Conditional Breakpoints</a></h1>
+          <p class="meta">July 21, 2008</p>
+            <p>So I&#8217;m debugging a chain of Sakai helpers and I ask myself&#8230;</p>
+
+<p>&#8220;Self, is there an easy way to use the Eclipse debugger to fake some runtime/dynamic tracing?&#8221;</p>
+
+<p>And the answer is a resounding &#8220;yes!&#8221;</p>
+
+<p>If you set up conditional breakpoints at the places where you want those debug statements and inject some great println justice, magic is made. Eclipse is also nice enough to allow blocks of code or expressions. This means you can use just the println like an expression if you don&#8217;t care about the breaks, or make a println and a return if you do. See the screenshot for a somewhat nonsensical example.</p>
+
+<p>All of this can be yours with a single startup of Tomcat and a tail -f. If you&#8217;re lucky enough to be hacking something in *-tool, life is even better. Save, mvn install sakai:deploy, relaunch your debug scenario, and keep an eye on that terminal. Somebody who knows what they&#8217;re doing with Eclipse could probably tell you how to even target an IDE view &#8211; catalina.out is fine for me, though.</p>
+
+<p>&#8230;And for quick reference, you can right click on a breakpoint in the left-hand trough and select Breakpoint properties or use the Breakpoints view. On a Mac, Cmd-Shift-B toggles a breakpoint on a line, but getting to the properties with the keyboard is a pain (Opt-Shift-Q, B). In there, a natural-feeling sequence of arrows and Opt-Enter or a right click opens the dialog. Getting back to the editor is easier: F12.</p>
+
+<p><img alt='Conditional Breakpoint Properties' src='/images/2008/07/cond-break.png' /></p>
+
+<p>Happy hacking! -NB</p>
+        </div>
+      
+        <div class="post">
+          <h1><a href="/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage">Flash 9.0.16.0 does NOT play nicely with local storage</a></h1>
+          <p class="meta">April  3, 2008</p>
+            <p>OK. So I thought I wasn&#8217;t crazy. I reviewed my code. I tested Dojo versions. I isolated conditions. I followed dead-ends in desperation.</p>
+
+<p>And then the problem goes away. I can&#8217;t get SharedObject storage to break anywhere (and I&#8217;m still not sure why it was broken, then magically fixed &#8211; I suspect an update to the remote machine I was using, since the cluster is monitored/managed).</p>
+
+<p>And then, today, we replicate it in the one place in the world we really care about, and scrape the Flash version: <strong>9.0.16.0</strong>.</p>
+
+<p>So I check if Adobe is benevolent enough to lend a hand (installable old version) to poor developers who are getting hosed. They give a nice package, so I was thrilled.</p>
+
+<p>Then I fight with the installers/uninstallers for 6 versions until I find a golden nugget: <strong>uninstall_flash_player.exe</strong> <strong>/clean</strong> takes care of the registry entry that was stopping anything but the latest version (as it had already been installed) from running, though they install with &#8220;no problems&#8221;.</p>
+
+<p>And, with undue buildup, the point of this post:</p>
+
+<p><em>Flash 9.0.16.0 does NOT work with Dojo Storage 1.1, period.</em></p>
+
+<p>The good news is that all newer versions do, and 9.16 is coming up on two full years old with 3 major updates since. Time to beg for this lab to be updated and get on with better problems &#8211; like IE&#8217;s eternal lifetimes of objects created in iframes and its derivative memory leaks. -NB</p>
+        </div>
+      
+
+      <!-- links to prev and next pages for browsing thru archives -->
+      
+        <span id="newer"><a href="/">&laquo;&laquo; Newer Entries</a></span>
+      
+      
+        <span id="older"><a href="/page3">Older Entries &raquo;&raquo;</a></span>
+      
+  </div>
+  <div class="span4">
+    <h2>About</h2>
+    <p>...</p>
+  </div>
+</div>
+
+
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Noah Botimer 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

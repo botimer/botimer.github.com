@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal artifacts vs. official purposes &mdash; noah</title>
+    
+    <meta name="author" content="Noah Botimer">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/pygments-manni.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">noah</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Personal artifacts vs. official purposes </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>How long should personal artifacts submitted in some official capacity be viewable (by learner or official) in their original state? How we can let learners really own their materials?</p>
+
+<p>We&#8217;ve approached this problem to date by ignoring it. We make an explicit step: at some point, we force to student to say &#8221;I&#8217;m done with this thing and it&#8217;s yours forever&#8221;, and lock it. Or we just let it be malleable forever.</p>
+
+<p>This is directly analogous to how, in logic, math, and computer science, we sometimes restrict input to maintain a lower conceptual threshold. Persistence and security of artifacts is a really hard problem, so we make sure it can&#8217;t destabilize the easier ones we&#8217;re solving, by distilling a complex grey gradient into blacks and whites.</p>
+
+<p>It&#8217;s a perfectly valid way to get a foundation, but it&#8217;s time to move into our version of second-order logic &#8211; versioned, purpose-stamped, multi-threaded artifacts &#8211; to address our complex realities. We can&#8217;t lie to ourselves and believe that hard-locking a student&#8217;s file forever is practical in a personal learning experience.</p>
+
+<p>The specific thought that triggered this post was that the notion of estimated secure lifetime in cryptography is relevant to visible/storage lifetime in ePortfolios. However, this post also includes thoughts on the concepts of fluid artifacts being copied and made concrete at submission time, and how this relates to our existing web/email usage patterns.</p>
+
+<p>Lots more below the break.</p>
+<!--more-->
+<h3 id='useful_lifetime'>Useful Lifetime</h3>
+
+<p>In cryptography, there is a notion that the encryption should be strong enough that the estimated time to break it is longer than the sensitivity of the information. There is a general acceptance that, if it&#8217;s possible to decrypt the message legitimately, then someone could do it illegitimately.</p>
+
+<p>We just try to make sure that it would take a suitably long time (a few years to steal a single credit card number from an intercepted e-commerce transaction, for example). Security of physical safes is similarly rated on estimated and actual time to crack by an expert.</p>
+
+<p>It seems to me that we should consider the &#8220;useful lifetime&#8221; of submitted versions of user data in Sakai and ePortfolios. It&#8217;s kind of the inverse, where it&#8217;s not the notion of how long it&#8217;ll take the bad guys to get in, but the notion of how long the good guys can get in, and for what purposes, before the thing fades away.</p>
+
+<p>I don&#8217;t think this will lead a simple answer, but accepting that the valuable lifetime isn&#8217;t &#8220;forever&#8221; seems to be a start. Automatic, timestamped copies with a defined lifetime for a specific purpose is a tractable scenario. And it gives institutions a cutpoint to say when data can be archived and/or deleted from their live systems. Defining when the stuff goes from mutable to snapshotted &#8211; with a sensible UI &#8211; is the tricky part.</p>
+
+<h3 id='metaphors_already_in_use'>Metaphors Already In Use</h3>
+
+<p>There is one application people employ every day that doesn&#8217;t seem to get much attention for its parallels to this problem: <strong>email</strong>.</p>
+
+<p>Lacking sophisticated, intuitive software to collaborate on living information, people unconsciously send emails containing the two critically differentiable components: <strong>links</strong> and <strong>attachments</strong>.</p>
+
+<ol>
+<li>Links refer to some live resource that could change between the time the email went out and when it&#8217;s consumed. Unless the recipient manually archives the resource, they have no reasonable expectation that it will remain unchanged. They might be annoyed if a link goes dead or an article is deleted, but the effect of visiting a link is understood in the context of time-sensitivity. (Just grab a magazine from 2000, try the URLs you find and see what happens&#8230;)</li>
+
+<li>Attachments are concrete manifestations of things that were alive until &#8220;Send&#8221; was pressed. If the recipient is on vacation or sabbatical for two months, the resource waits, patiently, unchanged in the inbox. Emails with attachments are, themselves, unaffected by the passage of time. (Look at a JC Penny catalog from 1980; all of the information is outdated, but intact.)</li>
+</ol>
+
+<p>As soon as we move away from this familiar, learned metaphor of email, all sanity breaks down. In a learning system or ePortfolio, we get frustrated when resources are locked; we get frustrated when they change. We can&#8217;t seem to make any sense of the balance between personal rights and abilities, and the official or accountability needs.</p>
+
+<p>For the system / builders, accountability wins, because accountability pays the bills. <em>See <a href='/posts/2008/03/09/sakai-and-osp-development-accountability-personalization'>my post on this within Sakai</a>.</em></p>
+
+<p>For the users, it continues to be a painful problem and they end up saying things like &#8221;I&#8217;ll just make a document and email it. At least that&#8217;s simple and I know what I&#8217;ll get.&#8221;</p>
+
+<p>We never realize that the users are telling us what they need &#8211; we just need to implement it in the system in a way that isn&#8217;t onerous.</p>
+
+<p>In reality, I think the users need to give an inch and the system needs to give a mile. The digital world is moving toward versioning, so there is some user adaptation needed. But we can&#8217;t force-feed a &#8220;better way&#8221;.</p>
+
+<p>At least ten or twenty aspects of learning/portfolio systems depend on getting this right. And <em>right</em> means <em>easy</em>.</p>
+
+<p>The only thing we should add to the user&#8217;s world is the ability to make a tag (in the source control parlance) in some specific spot or make a live link. I think switching a connection between the live version and a tagged version is actually the critical user component, but it must be trivially simple.</p>
+
+<p>I suspect &#8220;locking&#8221; workflow steps could be implemented as automatic tagging. Those autotags would be identical save for lasting for a specific period, being visible to others based on appropriate rules, and not convertible/detachable.</p>
+
+<p>I&#8217;m naively hopeful that the mainstreaming of versioning (in Google Docs, &#8220;Track Changes&#8221;, wikis, source control, document management systems, JCR, etc.) will give us all some internal understanding of how digital information exists infinitely &#8211; as opposed to the discrete physical counterparts &#8211; and how to manage it. Don&#8217;t laugh just yet &#8211; you don&#8217;t think about your understanding of emailing links vs. attachments; you just do it.</p>
+
+<p>One very interesting thing I&#8217;ve noticed in Google Docs: there are automatic drafts that happen while authoring, and you can switch between them at leisure until you save. Then the interim, uninteresting junk fades from view &#8211; a sophisticated technique to maintain sanity in the user&#8217;s world.</p>
+
+<p>I&#8217;m not sure why the topics of cryptography and email haven&#8217;t come up in this conversation. I just hope that considering what people use and do implicitly every day gives us some traction on a practical set of solution strategies. -NB</p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/posts/2008/03/09/sakai-and-osp-development-accountability-personalization" title="Sakai and OSP — development, accountability, personalization" accesskey="p">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/posts/2008/03/17/dojo-storage-a-timely-treat" title="Dojo Storage — A timely treat" accesskey="n">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'botimer'; // required: replace example with your forum shortname
+    var disqus_identifier = '11 http://botimer.github.com/?p=11';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>09 March 2008</span></div>
+
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Noah Botimer 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

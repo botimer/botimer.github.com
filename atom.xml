@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>noah</title>
+ <link href="http://botimer.github.com/atom.xml" rel="self"/>
+ <link href="http://botimer.github.com"/>
+ <updated>2012-05-28T12:03:46-04:00</updated>
+ <id>http://botimer.github.com</id>
+ <author>
+   <name>Noah Botimer</name>
+   <email>blog@botimer.net</email>
+ </author>
+
+ 
+ <entry>
+   <title>Thoughts on “Sakai OAE”</title>
+   <link href="http://botimer.github.com/posts/2010/11/04/thoughts-on-sakai-oae"/>
+   <updated>2010-11-04T10:02:42-04:00</updated>
+   <id>http://botimer.github.com/posts/2010/11/04/thoughts-on-sakai-oae</id>
+   <content type="html">&lt;p&gt;If you haven&amp;#8217;t heard, there has been some rebranding effort in the Sakai community recently. The project formerly known as &amp;#8220;Sakai 3&amp;#8221; has been &lt;a href='http://sakaiproject.org/news/sakai-open-academic-environment-confirmed-official-sakai-foundation-project'&gt;dubbed&lt;/a&gt; the &lt;em&gt;Sakai Open Academic Environment&lt;/em&gt; (OAE). The reaction has been varied; some wonder why a name change at all, some don&amp;#8217;t especially care for the choice, some wonder why it wasn&amp;#8217;t chosen differently&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m writing this post to give my perspective of why this is a healthy community move, even if the exact name &amp;#8220;OAE&amp;#8221; doesn&amp;#8217;t stick.&lt;/p&gt;
+
+&lt;p&gt;This is just one more recognition that we&amp;#8217;re talking about a new and different product. &amp;#8220;3&amp;#8221; doesn&amp;#8217;t work very well as a product identifier, amongst ourselves, or to the broader world. This is an important distinction between Sakai (the community/brand/make) and Sakai (the software/product/model).&lt;/p&gt;
+
+&lt;p&gt;As the project portfolio for the Sakai community expands, we need real names for the projects. This looks to become more natural if we draw closer to our &lt;a href='http://www.jasig.org/'&gt;Jasig&lt;/a&gt; friends, who already have a number of named projects. (As a side note, be ready to have discussions on your campus and at conferences of how a Collaboration and Learning Environment [CLE] is different from the OAE.)&lt;/p&gt;
+
+&lt;p&gt;So, my takeaway, whether you like the name Open Academic Environment or not, is that this is an important step on the maturity path for our community. -NB&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;P.S. Although OAE doesn&amp;#8217;t roll off my tongue very well, I&amp;#8217;m glad to be done with this dance: well, take the S off, and change it to a three. Yeah, it&amp;#8217;s a nerdy thing. No, I didn&amp;#8217;t pick it. They usually pronounce it&amp;#8230; Explaining it always felt like watching awful karaoke.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sakai Futures, part 2</title>
+   <link href="http://botimer.github.com/posts/2010/03/16/sakai-futures-part-2"/>
+   <updated>2010-03-16T01:33:50-04:00</updated>
+   <id>http://botimer.github.com/posts/2010/03/16/sakai-futures-part-2</id>
+   <content type="html">&lt;p&gt;It seems that at least a couple of people read my &lt;a href='/posts/2010/03/13/sakai-futures'&gt;last editorial&lt;/a&gt;. I didn&amp;#8217;t expect to write a part 2, at least not here or now. But it&amp;#8217;s worth a bit of clarification&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;See the very end for the &amp;#8220;bit&amp;#8221; part&amp;#8230;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Sakai Product Manager, Clay Fenlason, has &lt;a href='http://sakaiproject.org/blogs/khomotso/debates-about-community-process'&gt;posted some notes&lt;/a&gt; on this ongoing discussion. He rightly points out that it is evolving and happening in large part on the &amp;#8220;management list&amp;#8221;, and that you should join up or watch the archives if interested.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this post is to clarify what looks to be a basic disconnect on my opinion, since I was cited and don&amp;#8217;t mean what it looks like Clay heard. He says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;But again our first practical example risks a misunderstanding - that the full process is only really about Sakai 3. There are even some knowledgeable community leaders that are &lt;a href='http://www.dr-chuck.com/csev-blog/000709.html'&gt;coming to this conclusion&lt;/a&gt; and &lt;a href='/posts/2010/03/13/sakai-futures'&gt;holding it forth&lt;/a&gt; as an insight.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It seems that Clay has drawn an interpretation from my communications where I would attribute the process primarily, or even exclusively, to 3.x, thereby grandfathering 2.x into some who-knows-what process. If he read it this way, it is fair to say that others might, too.&lt;/p&gt;
+
+&lt;p&gt;I feel &lt;em&gt;quite the opposite&lt;/em&gt;, in fact.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;I think it makes a lot of sense to codify and ease the ebb and flow of 2.x, and that the documented &amp;#8220;2009 process&amp;#8221; isn&amp;#8217;t all that far off once we get past impressions of who&amp;#8217;s telling whom what to do. There are some bits to figure out about roles (QA? RM? MT? PC? PM?) and how work gets done with attentions being spread but, at 10,000 feet, it seems largely representative of the problem we need to solve for 2.x: measured evolution of a mature product with regularly released versions (including 2.8, 2.9, and 2.10, IMHO).&lt;/p&gt;
+
+&lt;p&gt;I would say that it is much less clear how it applies to Sakai 3 at this point.&lt;/p&gt;
+
+&lt;p&gt;What I&amp;#8217;ve struggled with most is &amp;#8220;bootstrapping&amp;#8221; Sakai 3. That is, understanding the very first step in a process that assumes projects that are folded into a product &amp;#8211; that there is some shape, texture, and flow that must not be disrupted. Essentially all of the language is built around &amp;#8220;the release&amp;#8221; or &amp;#8220;the product&amp;#8221;, and our mental models draw from our experience to date.&lt;/p&gt;
+
+&lt;p&gt;Sakai 3, as a whole, entering the Incubation phase of such a process is perplexing to me. I&amp;#8217;m confused as to whether we intend to refine it into a super-process or possibly change it to meet emerging needs to the disservice of existing ones.&lt;/p&gt;
+
+&lt;p&gt;It is especially perplexing because it is absolutely clear that we have &lt;em&gt;two familial products&lt;/em&gt; at different generational stages (one adult and one embryonic). There is presently no product into which the &amp;#8220;Sakai 3 project&amp;#8221; would be folded. This is a bootstrap project for a bootstrap product &amp;#8211; a recursive paradox that unravels the whole process unless we find the base case.&lt;/p&gt;
+
+&lt;p&gt;I suppose I might say: is it a chicken or is it an egg? When will we know and how?&lt;/p&gt;
+
+&lt;p&gt;More rhetorical questions: are we planning to have a super-release for the whole ball of wax? Are the product and release &amp;#8220;Sakai&amp;#8221;, or are the products and releases Sakai 2.x and 3.x?&lt;/p&gt;
+
+&lt;p&gt;In more literal terms, where do we draw a line around the first bit of work that makes up a release for Sakai 3 (not necessarily enterprise-grade)? When do we say that Sakai 3 has made it to the end of the Product Development phase? What is the first project that is decidedly not &amp;#8220;in the core&amp;#8221;, to be set upon an Incubation path for inclusion within that release? Who decides?&lt;/p&gt;
+
+&lt;p&gt;We should also note that there are only three really interesting values in cardinality: zero, one, and infinity. Moving from one to two is very hard precisely because it&amp;#8217;s the first time you have to account for infinity.&lt;/p&gt;
+
+&lt;p&gt;Maybe these things don&amp;#8217;t matter. Maybe we just need to hammer along and release some software and the rest will become obvious. I can&amp;#8217;t argue with charging forward and putting pen to paper, so to speak. No matter what, I certainly don&amp;#8217;t want these philosophical dronings to dissuade people from the hard work they &lt;em&gt;sign up to do&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I believe in open source, plainly and wholly.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Let me be clear about my ultimate point from part one:&lt;/p&gt;
+
+&lt;p&gt;The Sakai community has reached a generational moment. We are moving from one product to two. We are not moving from one community to two. We are not moving from one Foundation to two. This is bringing a pile of organizational challenges.&lt;/p&gt;
+
+&lt;p&gt;My opinion is that we need to accept this, be clear about our intentions and commitments to our 2.x adopters and friends, make room for the two streams to progress in their own natural space and time, and try to understand what a bountiful ecosystem of Sakai projects might look like. It just so happens that our httpd2 looks to be numbered 3. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sakai Futures</title>
+   <link href="http://botimer.github.com/posts/2010/03/13/sakai-futures"/>
+   <updated>2010-03-13T21:10:32-05:00</updated>
+   <id>http://botimer.github.com/posts/2010/03/13/sakai-futures</id>
+   <content type="html">&lt;p&gt;Something has been gnawing at me. Here is my initial assessment:&lt;/p&gt;
+
+&lt;p&gt;There are some gradual but quite significant changes coming to how the Sakai community works and releases software, and these changes are quite unclear.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t think this is controversial or surprising. I do think that there are lots of ideas, fears, and desires for how this might work out. We are definitely having organizational growing pains.&lt;/p&gt;
+
+&lt;p&gt;Here is what I see as already present:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two new groups: the Product Council and Maintenance Team&lt;/li&gt;
+
+&lt;li&gt;Release Management emerging as possibly distinct from QA&lt;/li&gt;
+
+&lt;li&gt;A relatively new and evolving Product Manager role&lt;/li&gt;
+
+&lt;li&gt;Two streams of software (2.x and 3.x)&lt;/li&gt;
+
+&lt;li&gt;Tension about how each of these roles shapes either stream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Where I&amp;#8217;m going with this is that three of us on the PC share a homework item of looking at what would be helpful support of our Incubation and Product Development phases. However, I have been confounded about the very essence of this assignment given the above list. See the email below for specifics &amp;#8211; it also frames this post as a written reflection.&lt;/p&gt;
+
+&lt;p&gt;So, let me reflect.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;It has long been obvious to me that &amp;#8220;Sakai&amp;#8221; has no simple definition. I posted this to the user list in Jan &amp;#8216;08:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I suppose I&amp;#8217;m also trying to mention that &amp;#8220;Sakai&amp;#8221; is at least four things to us:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A collaboration / learning system&lt;/li&gt;
+
+&lt;li&gt;A framework for building collaborative tools&lt;/li&gt;
+
+&lt;li&gt;A community of schools, affiliates, and generally cool/brilliant people&lt;/li&gt;
+
+&lt;li&gt;A foundation of visionaries to steward 1-3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It must not have been too far off, as Michael said something nearly identical in his &lt;a href='http://www.youtube.com/watch?v=TjIXGFQJ4SI'&gt;overview video&lt;/a&gt; about a month later.&lt;/p&gt;
+
+&lt;p&gt;This sets the stage for our present unease. We are definitively not evolving Sakai 2.x into Sakai 3.x. This invalidates points number one and two, and the perturbation becomes obvious to me:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We have two product lines. Period.&lt;/li&gt;
+
+&lt;li&gt;Everything is being swept up in some imperfect Unified Sakai Theory that does not account for this and its effects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We have two products and the rest overlaps by some yet unknown amount. If you like numbers, that means we have two #1&amp;#8217;s, two #2&amp;#8217;s, a blurry and dynamic #3, and a shared #4. We also hope for a #5: a compelling hybrid/migration mode or, more generally, a way that our products can work together.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;problem&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;We are treating the transition as an upgrade and picking up bad behaviors because of it.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So, to my perspective on reality:&lt;/p&gt;
+
+&lt;p&gt;We must accept that open source &amp;#8220;fans out&amp;#8221; with maturity. Adopters will be on old stuff, whether by choice or circumstance. Any attempts to push someone when they don&amp;#8217;t want to or can&amp;#8217;t move defeat the spirit and are bound to build resentment.&lt;/p&gt;
+
+&lt;p&gt;No one can declare end of life for 2.x. Contributors can reallocate. Adopters can migrate. People and groups will jump on 3.x when they are compelled to do so, whether by attractive features, institutional mission, or unmet needs (as by 2.x or otherwise).&lt;/p&gt;
+
+&lt;p&gt;The two products are at very different stages of the life cycle and have very different needs. Our Product Development Process has been conceived in terms of a mature, single product, into which projects are folded and from which outmoded pieces are removed over time. This model does not address the needs of a brand new, parallel core or when or if that core becomes a product into which projects are folded. Trying to solve the problem of how 3.x fits into and changes a single model ignores too many realities for me to be comfortable.&lt;/p&gt;
+
+&lt;p&gt;And, finally, parts of what I see as a &lt;em&gt;solution&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make a &lt;strong&gt;clear decision&lt;/strong&gt; and statement &lt;strong&gt;about 2.8&lt;/strong&gt;, including Foundation and institutional &lt;strong&gt;priorities and commitments&lt;/strong&gt;, rather than the fuzziness that has prevailed.&lt;/li&gt;
+
+&lt;li&gt;Let the &lt;strong&gt;2.x conversation&lt;/strong&gt; and decisions happen &lt;strong&gt;out in the community&lt;/strong&gt;. If centralized resources are planned to be shifted, clarify them and allow &lt;strong&gt;community members&lt;/strong&gt; to &lt;strong&gt;step up&lt;/strong&gt; to these gaps &lt;strong&gt;or adjust their expectations&lt;/strong&gt; accordingly.&lt;/li&gt;
+
+&lt;li&gt;Remember that open source software far exceeds the reach and lifespan generally anticipated. &lt;strong&gt;Adopters&lt;/strong&gt; can &lt;strong&gt;persist&lt;/strong&gt; long after contributors move on and appreciate clarity about changing levels of support. &lt;strong&gt;Adopters appreciate clear opportunities and needs&lt;/strong&gt; for contribution. &lt;strong&gt;Adopters do not appreciate threats&lt;/strong&gt; of their contributions being unwelcome &amp;#8211; &lt;strong&gt;they &lt;em&gt;will&lt;/em&gt; fork or leave.&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;Reach consensus and clear statements on the &lt;strong&gt;charges of the various teams&lt;/strong&gt;, explicitly treating 2.x and 3.x. Seek announced, &lt;strong&gt;single points of contact&lt;/strong&gt; (named dropbox lists or people), if not leads, so concerns can be delivered and addressed expediently.&lt;/li&gt;
+
+&lt;li&gt;Revise the &lt;strong&gt;Product Development Process&lt;/strong&gt; to account for two parallel products and understood roles. If it is tuned to how we see &lt;strong&gt;2.x, leave it be&lt;/strong&gt;. If not, fix it. &lt;strong&gt;Write a new one for 3.x&lt;/strong&gt;. Do not shoe-horn one into the other because we have years before they have the same shape and &lt;strong&gt;they need different support now&lt;/strong&gt;.&lt;/li&gt;
+
+&lt;li&gt;Recognize that all of these &lt;strong&gt;teams&lt;/strong&gt; (and the Foundation staff and Board) &lt;strong&gt;overlap considerably&lt;/strong&gt; (especially over time), primarily because &lt;strong&gt;people want to do work&lt;/strong&gt; to move the community forward and join up eagerly. Try to hear opinions, suggestions, and objections as &lt;strong&gt;ideas from colleagues&lt;/strong&gt;, not as formal positions of some authority body.&lt;/li&gt;
+
+&lt;li&gt;Consider the new definition of &amp;#8220;Sakai&amp;#8221;. &lt;strong&gt;Disentangle the overlapping pieces&lt;/strong&gt; and figure out the highest level organizational summary:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What are the &amp;#8220;you need to think of&amp;#8221; items that go in the next overview video?&lt;/em&gt;&lt;/strong&gt; -NB&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I should also mention that the timing of this reflection is unfortunate. It has absolutely nothing to do with Michael&amp;#8217;s departure; only the 2.7/2.8 process and Product Council homework. Michael has always entertained my rambling exceptionally graciously and usually informed me of something I misunderstood or took too emotionally. Were he to be continuing with us, I&amp;#8217;m sure he would do the same here. I genuinely wish him the best on his new opportunities. Remember to set your alarm clock forward an hour for Monday!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;From: Noah Botimer &amp;lt;...&amp;gt;
+Date: March 10, 2010 10:08:13 PM GMT-05:00
+To: Nate Angell &amp;lt;...&amp;gt;
+Cc: Michael Feldstein &amp;lt;...&amp;gt;
+Subject: Re: SPC homework
+
+I&amp;#39;m trying desperately to protect the remainder of this week. I think a time
+next week is best for me and will give a chance to reflect some.Since I just
+chatted with Nate, I&amp;#39;ll mention this for Michael&amp;#39;s benefit:
+
+I&amp;#39;m having a bit of trouble making meaning of the action item. I&amp;#39;m suffering
+from a blank page / flux / bootstrapping problem, where everything we have
+structured is from a different, simpler, more understood era. This makes the
+bullet point very confusing to me now.
+
+I&amp;#39;ve pieced together some skeletal thoughts but they are young. I need some
+processing time to hold even one possible future in my mind in sufficient
+clarity.
+
+I think this rephrased question is a good one to consider, but I&amp;#39;m not ready to
+do it in congregation.
+
+This is all, of course, unless there is a clear definition that I can
+understand and get with.
+
+Thanks,
+-Noah
+
+On Mar 10, 2010, at 9:23 PM, Nate Angell wrote:
+the 3 of us should set up a call to discuss our SPC homework, which is defined
+in the SPC etherpad as:
+
+&amp;quot;Moving from incubation to product development&amp;quot;
+
+but which I&amp;#39;m maybe more willing to view as something more like:
+
+&amp;quot;what form should the SPC&amp;#39;s stewardship of Sakai 3 releases take?&amp;quot;
+
+do you guys have time this Thu/Fri?
+
+I&amp;#39;m pretty free Thu. On Fri I have stuff scheduled 12:30-2 and 3-5 ET.&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Dirt &amp; Grass</title>
+   <link href="http://botimer.github.com/posts/2010/01/12/dirt-grass"/>
+   <updated>2010-01-12T17:35:32-05:00</updated>
+   <id>http://botimer.github.com/posts/2010/01/12/dirt-grass</id>
+   <content type="html">&lt;p&gt;Dirt and grass are beautiful. Rocks, twigs, and bugs, too. Sometimes this world recognizes only majestic cathedrals, all too happy to look past the essence of life.&lt;/p&gt;
+
+&lt;p&gt;This is a corollary to something I&amp;#8217;ve been struggling to articulate lately. Open source has made it; and because it has made it, people want to make it big. This is fine. I don&amp;#8217;t have a problem with big companies, big projects, big money, and the rest.&lt;/p&gt;
+
+&lt;p&gt;Where I get uneasy is when people cultivate the sense that the fundamental distinction of free software is just access to source code, or the even simpler view of having no licensing cost.&lt;/p&gt;
+
+&lt;p&gt;No, this isn&amp;#8217;t what really gets me.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;What really gets me is when we propagate the notion that open source software is just the next piece of some empire-building puzzle &amp;#8211; that the value lies chiefly in the different market pressures that open access and licensing can add to the corporate toolkit.&lt;/p&gt;
+
+&lt;p&gt;Sure, these techniques can level out markets or even carve out new ones. Sure, there are areas of innovation that require very large investments, particularly where new hardware or regulations are involved (shaking up the mobile industry, for example). Sure, big companies can deliver on a social mission.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;#8217;s harmful to assume that &amp;#8220;open&amp;#8221; is just the newest armor for the same old machine, on its same old world domination path.&lt;/p&gt;
+
+&lt;p&gt;We miss the point when we forget that access has always been a key component of open source software and communities.&lt;/p&gt;
+
+&lt;p&gt;When I say access, I mean the access of the hobbyist or student or small shop to the tools of creation. Through projects that have essentially no &amp;#8220;business model&amp;#8221;, millions of amateurs (only in the sense that they do something else for a living) are able to create software, art, and more, all with tools that paid professionals use. The most mature case is that of programming tools (languages, compilers, servers, IDEs, etc.) where the freely available tools are the exclusive kit of many pros.&lt;/p&gt;
+
+&lt;p&gt;The impact this has had is enormous. If you have the itch, you can build things. Free tools aren&amp;#8217;t a secret anymore. And they hold their own with the commercial tools.&lt;/p&gt;
+
+&lt;p&gt;But to get to my point&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s perfectly alright to be a hobbyist. It&amp;#8217;s perfectly alright to make and share software that doesn&amp;#8217;t aim to dominate some market &amp;#8211; or even ever be polished.&lt;/p&gt;
+
+&lt;p&gt;So much of our technology world runs on dirt and grass &amp;#8211; the stuff on the ground level. The driver that reads your keyboard, the TCP/IP stack in a dozen routers between me and you, the library that talks to your IM service.&lt;/p&gt;
+
+&lt;p&gt;The open varieties of these and many more are beautiful. They don&amp;#8217;t have to be big or marketable to be important and interesting.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s far too easy to get caught up in the gears when we talk about who&amp;#8217;s going to buy up the next open source database or who&amp;#8217;s the most delectable open source target in the groupware or telephony arenas.&lt;/p&gt;
+
+&lt;p&gt;One of my most cherished aspects of open software is that there is room; room for everyone, room for multiple projects that do the same thing, room for innovation, room for profit, room for hobby, room for learning. The creative energy is not bound by customers, design training, or anything else if you don&amp;#8217;t want. You don&amp;#8217;t have to aspire to beating anyone. This doesn&amp;#8217;t mean you can&amp;#8217;t be a fine craftsman, either, but that the field is open in all directions.&lt;/p&gt;
+
+&lt;p&gt;When we talk only of building skyward, we hurt the sense of wonder that is tinkering and the camaraderie that is hacking together in the bazaar. We forget that we have limitless space outward &amp;#8211; where there&amp;#8217;s a lot of beautiful dirt and grass to play on. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Tweak working copy POMs without checking them in</title>
+   <link href="http://botimer.github.com/posts/2009/08/06/tweak-working-copy-poms-without-checking-them-in"/>
+   <updated>2009-08-06T13:04:15-04:00</updated>
+   <id>http://botimer.github.com/posts/2009/08/06/tweak-working-copy-poms-without-checking-them-in</id>
+   <content type="html">&lt;p&gt;A handy little snippet&amp;#8230; This is something I&amp;#8217;ve used a few times when I&amp;#8217;m hacking in a working copy and need to change POMs for some local reason (usually versioning) but can&amp;#8217;t check them back in modified. I&amp;#8217;d like to tweak the POMs, work on other stuff, build/test, check everything &lt;em&gt;but&lt;/em&gt; the POMs in, rinse and repeat. Here&amp;#8217;s a workaround:&lt;/p&gt;
+&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nv'&gt;$ &lt;/span&gt;svn st | grep &lt;span class='s1'&gt;&amp;#39;^M&amp;#39;&lt;/span&gt; | grep &lt;span class='o'&gt;[&lt;/span&gt; &lt;span class='se'&gt;\/&lt;/span&gt;&lt;span class='o'&gt;]&lt;/span&gt;pom.xml&lt;span class='s1'&gt;&amp;#39; | sed &amp;#39;&lt;/span&gt;s/^.......//&lt;span class='s1'&gt;&amp;#39; | \&lt;/span&gt;
+&lt;span class='s1'&gt;  xargs -I{} svn diff {} &amp;gt; pom.patch&lt;/span&gt;
+&lt;span class='s1'&gt;$ svn st | grep &amp;#39;&lt;/span&gt;^M&lt;span class='s1'&gt;&amp;#39; | grep [ \/]pom.xml&amp;#39;&lt;/span&gt; | sed &lt;span class='s1'&gt;&amp;#39;s/^.......//&amp;#39;&lt;/span&gt; | &lt;span class='se'&gt;\&lt;/span&gt;
+  xargs -I&lt;span class='o'&gt;{}&lt;/span&gt; svn revert &lt;span class='o'&gt;{}&lt;/span&gt;
+&lt;span class='nv'&gt;$ &lt;/span&gt;svn ci -m &lt;span class='s1'&gt;&amp;#39;whatever&amp;#39;&lt;/span&gt;
+&lt;span class='nv'&gt;$ &lt;/span&gt;patch -p0 &amp;lt; pom.patch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Happy hacking. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Graceful AJAX degradation / progressive enhancement</title>
+   <link href="http://botimer.github.com/posts/2009/08/04/graceful-ajax-degradation-progressive-enhancement"/>
+   <updated>2009-08-04T21:40:08-04:00</updated>
+   <id>http://botimer.github.com/posts/2009/08/04/graceful-ajax-degradation-progressive-enhancement</id>
+   <content type="html">&lt;p&gt;In one of those beautifully lucky moments, I found an article I was wishing I had kept track of last night. I was chatting with Chuck and Matt a week ago about the pervasion of script in web pages these days and how hardly anything degrades reasonably. For years, I refused script entirely but, now, I have fallen victim to the trend. &amp;#8220;Everybody has script enabled anyway. Mashups are inevitable. They want AJAX. Just script it.&amp;#8221; That doesn&amp;#8217;t mean that I don&amp;#8217;t still want to use &lt;a href='http://elinks.or.cz/'&gt;ELinks&lt;/a&gt; deep down.&lt;/p&gt;
+
+&lt;p&gt;So, I read one of those articles a while back where you feel a little bump and realize someone has lighted the path &amp;#8211; with the best kind of light, showing the unnoticed obviousness. It&amp;#8217;s like observing that HTTP actually works pretty well when you use it as carefully built, ten years after working around it furiously. It&amp;#8217;s like noticing that really ugly &lt;em&gt;(well structured, unstyled)&lt;/em&gt; web pages take the most beautiful CSS easily.&lt;/p&gt;
+
+&lt;p&gt;But I lost the article. And my recollection didn&amp;#8217;t do it justice or support the point that you can script the snot out of a page without breaking Lynx. Then I read the Thread on Safari support in Sakai, mentioning &lt;a href='http://developer.yahoo.com/yui/articles/gbs/'&gt;Yahoo! Graded Browser Support&lt;/a&gt;. And something snapped; I thought this may have been where I found the article&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;The article was on &lt;strong&gt;&lt;a href='http://domscripting.com/blog/display/41'&gt;&lt;em&gt;Hijax&lt;/em&gt;&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a cute name Jeremy Keith came up with for an approach to adding AJAX magic without breaking the basic function of web pages. It&amp;#8217;s more or less a philosophical first principle of modern web development. You should read this article daily and soak it in like the &lt;a href='http://www.canonical.org/~kragen/tao-of-programming.html'&gt;Tao&lt;/a&gt;. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sakai JSONP callbacks in Entity Broker</title>
+   <link href="http://botimer.github.com/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker"/>
+   <updated>2009-07-25T23:27:18-04:00</updated>
+   <id>http://botimer.github.com/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker</id>
+   <content type="html">&lt;p&gt;So, I&amp;#8217;m going to try to get back in the habit. I owe Ray two posts, so this is a warmup. Anyway&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve just added JSONP callback support to Entity Broker. This allows you to make a data feed that can be used for mashups. The normal JSON feeds don&amp;#8217;t allow for this because, when the script tag is added, the object literal just drops into the ether &amp;#8211; it needs to be handed off to a function. Plenty of others are using this technique now and it&amp;#8217;s well supported in things like jQuery; just search around.&lt;/p&gt;
+
+&lt;p&gt;The important bit is that you can either use the default callback function (jsonEntityFeed) or specify your own. You just craft a URL to the entity and optionally give a parameter. For example: &lt;code&gt;
+http://sakai/direct/entity-prefix/some-id.jsonp
+http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=myCustomCallback&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are using jQuery, you can use the getJSON method to call an inline, unnamed callback like this: &lt;code&gt;
+$.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=?&amp;#39;,
+    function(data) {
+        alert(data.whatever.element[0].here);
+    });
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s all pretty straightforward and tracked in &lt;a href='http://jira.sakaiproject.org/browse/SAK-16757'&gt;SAK-16757&lt;/a&gt;. I imagine that this will get tagged at some point, but it&amp;#8217;s just in trunk for now. Happy Hacking! -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Aptana + Vista + PHP + Oracle XE == Victory!</title>
+   <link href="http://botimer.github.com/posts/2008/11/23/aptana-vista-php-oracle-xe-victory"/>
+   <updated>2008-11-23T16:59:06-05:00</updated>
+   <id>http://botimer.github.com/posts/2008/11/23/aptana-vista-php-oracle-xe-victory</id>
+   <content type="html">&lt;p&gt;So, I&amp;#8217;m doing some development against Oracle with PHP and really wanted &lt;a href='http://www.oracle.com/technology/products/database/xe/index.html'&gt;Express Edition&lt;/a&gt; on a local machine to be able to hack without a lot of messing around (my other Oracle instances are behind VPNs, etc.)  I&amp;#8217;ve also been thinking about hooking my desktop back up for one of those environment changes that results in a productivity boost.  A third factor is that I want to do this development in &lt;a href='http://aptana.com/studio'&gt;Aptana&lt;/a&gt; because, well, it&amp;#8217;s just plain sweet.  Easily said&amp;#8230;&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&amp;#8230;and pretty easily done once the steps are laid out.&lt;/p&gt;
+
+&lt;p&gt;The Aptana Studio and XE installs were both cake.  I love that, however it has come about, &amp;#8220;just works&amp;#8221; is finally taking hold across all three big platforms.  I also highly recommend &lt;a href='http://www.oracle.com/technology/products/database/sql_developer/index.html'&gt;SQL Developer&lt;/a&gt; (so far, anyway.)  For anyone who&amp;#8217;s worked extensively with SQL Server 2000, this thing feels like Query Analyzer, and I couldn&amp;#8217;t be happier.&lt;/p&gt;
+
+&lt;p&gt;So, what&amp;#8217;s the problem?&lt;/p&gt;
+
+&lt;p&gt;Well, Aptana has that very slick integrated PHP instance, and I don&amp;#8217;t plan to do anything beyond that&amp;#8230; but it doesn&amp;#8217;t ship with the Oracle extensions.  After enough poking around, I was pleased to find that the extensions are stored in one of the Aptana plugin directories, and the php.ini files are there, too.  This just leaves getting the DLLs and dropping/enabling them.&lt;/p&gt;
+
+&lt;p&gt;To get to the goods, assuming Aptana and XE are installed:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href='http://pecl4win.php.net/ext.php/php_oci8.dll'&gt;php_oci8.dll&lt;/a&gt; and &lt;a href='http://pecl4win.php.net/ext.php/php_pdo_oci.dll'&gt;php_pdo_oci.dll&lt;/a&gt; from &lt;a href='http://pecl4win.php.net/index.php'&gt;PECL4WIN&lt;/a&gt;. (Aptana 1.2 ships PHP 5.2.5, so grab 5.2)&lt;/li&gt;
+
+&lt;li&gt;Drop these into &lt;code&gt;...Aptana Studio\plugins\com.aptana.ide.php.interpreters.win32.x86_5.3.14.v20081007\resources\php5\ext&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Add your extensions to the php.ini files in &lt;code&gt;...resources\php_xdebug&lt;/code&gt; and &lt;code&gt;...resources\php_zend_debugger&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;#8217;s it.  Now you can connect to Oracle instances.  I, personally, prefer PDO, so included the driver in the directions.  You wouldn&amp;#8217;t need this if you were doing raw OCI.  For a cheatsheet, the connection looks like this: &lt;code&gt;$dbh = new PDO(&amp;quot;oci://host/SID&amp;quot;, &amp;quot;user&amp;quot;, &amp;quot;pass&amp;quot;);&lt;/code&gt;  With a local XE, the default would be &lt;code&gt;//localhost/xe&lt;/code&gt;.  I hope this saves someone the couple of hours I spent messing around. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Adium logs make it very slow</title>
+   <link href="http://botimer.github.com/posts/2008/10/25/adium-logs-make-it-very-slow"/>
+   <updated>2008-10-25T18:31:59-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/10/25/adium-logs-make-it-very-slow</id>
+   <content type="html">&lt;p&gt;I was seeing somewhere between 30 seconds and a minute to get to the keychain login, and another 30 seconds to bring up a contact list. Clean out the logs, relaunch &amp;#8211; about 4 seconds for each.&lt;/p&gt;
+
+&lt;p&gt;The logs live in &lt;code&gt;~/Library/Application Support/Adium 2.0/Users/Default&lt;/code&gt;. Remove or archive them and watch it fly. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>PHP json_encode is quirky</title>
+   <link href="http://botimer.github.com/posts/2008/10/02/php-json_encode-is-quirky"/>
+   <updated>2008-10-02T19:14:52-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/10/02/php-json_encode-is-quirky</id>
+   <content type="html">&lt;p&gt;So, amidst an interesting fight with CakePHP, I was fortunate enough to spot a quirk in &lt;a href='http://php.net/json_encode'&gt;&lt;code&gt;json_encode&lt;/code&gt;&lt;/a&gt; when passing arrays. If you have a typical ordinal array, life is good. If you have a typical associative array, life is good. The quirk is in how PHP decides what you have.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We define &amp;#8220;life is good&amp;#8221; here as: you pass something without meaningful keys, you get an array; you pass something with meaningful keys, you get an object.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When you have a regular old array of values (or rows of a result set, in my case) and you filter it with, e.g., &lt;a href='http://php.net/array_filter'&gt;&lt;code&gt;array_filter&lt;/code&gt;&lt;/a&gt;, you can end up with holes in the ordinal numbering.  This delights &lt;a href='http://php.net/json_encode'&gt;&lt;code&gt;json_encode&lt;/code&gt;&lt;/a&gt;, which displays its exceptional, &amp;#8220;just works&amp;#8221; intelligence, giving you an object full of numeric indexes pointing at what you thought would be unnamed items in an array.  In some cases, this makes no difference but, in some, it can be a big problem.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, I&amp;#8217;m generally in tune enough with the stylings of PHP that I went straight to trying &lt;a href='http://php.net/array_values'&gt;&lt;code&gt;array_values&lt;/code&gt;&lt;/a&gt; &amp;#8211; and now, all is right with the world. Just wrap any &lt;a href='http://php.net/array_filter'&gt;&lt;code&gt;array_filter&lt;/code&gt;&lt;/a&gt; calls with &lt;a href='http://php.net/array_values'&gt;&lt;code&gt;array_values&lt;/code&gt;&lt;/a&gt; if you plan to turn the goods into JSON. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Stupid Eclipse trick — Dynamic Tracing with Conditional Breakpoints</title>
+   <link href="http://botimer.github.com/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints"/>
+   <updated>2008-07-21T22:33:34-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints</id>
+   <content type="html">&lt;p&gt;So I&amp;#8217;m debugging a chain of Sakai helpers and I ask myself&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Self, is there an easy way to use the Eclipse debugger to fake some runtime/dynamic tracing?&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;And the answer is a resounding &amp;#8220;yes!&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;If you set up conditional breakpoints at the places where you want those debug statements and inject some great println justice, magic is made. Eclipse is also nice enough to allow blocks of code or expressions. This means you can use just the println like an expression if you don&amp;#8217;t care about the breaks, or make a println and a return if you do. See the screenshot for a somewhat nonsensical example.&lt;/p&gt;
+
+&lt;p&gt;All of this can be yours with a single startup of Tomcat and a tail -f. If you&amp;#8217;re lucky enough to be hacking something in *-tool, life is even better. Save, mvn install sakai:deploy, relaunch your debug scenario, and keep an eye on that terminal. Somebody who knows what they&amp;#8217;re doing with Eclipse could probably tell you how to even target an IDE view &amp;#8211; catalina.out is fine for me, though.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8230;And for quick reference, you can right click on a breakpoint in the left-hand trough and select Breakpoint properties or use the Breakpoints view. On a Mac, Cmd-Shift-B toggles a breakpoint on a line, but getting to the properties with the keyboard is a pain (Opt-Shift-Q, B). In there, a natural-feeling sequence of arrows and Opt-Enter or a right click opens the dialog. Getting back to the editor is easier: F12.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Conditional Breakpoint Properties' src='/images/2008/07/cond-break.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Happy hacking! -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Flash 9.0.16.0 does NOT play nicely with local storage</title>
+   <link href="http://botimer.github.com/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage"/>
+   <updated>2008-04-03T18:46:55-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage</id>
+   <content type="html">&lt;p&gt;OK. So I thought I wasn&amp;#8217;t crazy. I reviewed my code. I tested Dojo versions. I isolated conditions. I followed dead-ends in desperation.&lt;/p&gt;
+
+&lt;p&gt;And then the problem goes away. I can&amp;#8217;t get SharedObject storage to break anywhere (and I&amp;#8217;m still not sure why it was broken, then magically fixed &amp;#8211; I suspect an update to the remote machine I was using, since the cluster is monitored/managed).&lt;/p&gt;
+
+&lt;p&gt;And then, today, we replicate it in the one place in the world we really care about, and scrape the Flash version: &lt;strong&gt;9.0.16.0&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I check if Adobe is benevolent enough to lend a hand (installable old version) to poor developers who are getting hosed. They give a nice package, so I was thrilled.&lt;/p&gt;
+
+&lt;p&gt;Then I fight with the installers/uninstallers for 6 versions until I find a golden nugget: &lt;strong&gt;uninstall_flash_player.exe&lt;/strong&gt; &lt;strong&gt;/clean&lt;/strong&gt; takes care of the registry entry that was stopping anything but the latest version (as it had already been installed) from running, though they install with &amp;#8220;no problems&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;And, with undue buildup, the point of this post:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Flash 9.0.16.0 does NOT work with Dojo Storage 1.1, period.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The good news is that all newer versions do, and 9.16 is coming up on two full years old with 3 major updates since. Time to beg for this lab to be updated and get on with better problems &amp;#8211; like IE&amp;#8217;s eternal lifetimes of objects created in iframes and its derivative memory leaks. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>37signals, entropy, and Sakai</title>
+   <link href="http://botimer.github.com/posts/2008/03/29/37signals-entropy-and-sakai"/>
+   <updated>2008-03-29T16:24:58-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/29/37signals-entropy-and-sakai</id>
+   <content type="html">&lt;p&gt;Nathan Pearson, Sakai&amp;#8217;s lead for the UX Initiative just forwarded a &lt;a href='http://www.37signals.com/svn/posts/934-ira-glass-entropy-and-software-development'&gt;post from the 37signals blog&lt;/a&gt;. It&amp;#8217;s referencing a video interview with Ira Glass, where he talks about being a fierce editor and moderator, cutting more tape than you roll. The post extends the interview&amp;#8217;s mention of entropy as the disorganizing, enemy force to software.&lt;/p&gt;
+
+&lt;p&gt;In principle, I agree: entropy tends to bloat, delay, and complicate software. But the read-only experience of listener/viewer in storytelling is a bit different from daily use software. The post reveals some of the company&amp;#8217;s &amp;#8220;less is &lt;strike&gt;more&lt;/strike&gt; all&amp;#8221; philosophy.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;I give them credit for about half of the simplification and clarity we&amp;#8217;re seeing on the web in general. All told, Rails is pretty nice, and they don&amp;#8217;t get enough credit there. Putting the spoils of the past 5 years of practice evolution in front of the new generation of tinkerers is a very good thing. Specific to their apps, I love that they push products that do something very small, very well.&lt;/p&gt;
+
+&lt;p&gt;I believe that being a fierce gatekeeper, &lt;a href='http://c2.com/xp/RefactorMercilessly.html'&gt;refactoring mercilessly&lt;/a&gt;, and outright trashing old/bad stuff is paramount to evolution of a system. But I also believe that 37signals has had a little too much Kool-Aid. When you push practice into philosophy and eventually into religion, your inertia can get downright indomitable.&lt;/p&gt;
+
+&lt;p&gt;A case in point from their flagship, &lt;a href='http://basecamphq.com/'&gt;Basecamp&lt;/a&gt;&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;On the To-Do dashboard, each member across projects is listed in a drop-down, so you can see outstanding items assigned. Then there is an entry for &amp;#8220;Anyone&amp;#8221;. But it really means &amp;#8220;No One&amp;#8221; &amp;#8211; items able to be picked up, but that no one has. There is no way to see &amp;#8220;Everyone&amp;#8221; (all undone items), so I asked them for it directly.&lt;/p&gt;
+
+&lt;p&gt;The response could have come from Cupertino. It&amp;#8217;s good for you like this, eat it and be happy. This was the one feature I really needed, and they wouldn&amp;#8217;t consider it. It was enough to kill the usefulness and curb my enthusiasm, to be sure. I could adopt their version of minimalism or move on with mine intact.&lt;/p&gt;
+
+&lt;p&gt;So, in response to Matt&amp;#8217;s post&amp;#8230; Vigilance against miscellany is critical, but it can&amp;#8217;t become a fortress. I think we do well to say &amp;#8220;no&amp;#8221; a couple of times while thinking &amp;#8220;maybe&amp;#8221;. If it keeps coming up, &amp;#8220;maybe&amp;#8221; turns to &amp;#8220;probably&amp;#8221;, and the scale tips. &lt;a href='http://c2.com/cgi/wiki?YouArentGonnaNeedIt'&gt;YAGNI&lt;/a&gt; is great until someone DOES need it.&lt;/p&gt;
+
+&lt;p&gt;That progression depends on being the &amp;#8220;ruthless killer&amp;#8221; without becoming a zealot or a lunatic. We might know better than the user most of the time, but we should never be so arrogant as to assume it always and declare it so without consideration.&lt;/p&gt;
+
+&lt;p&gt;In the complex realm where Sakai lives, we should always be careful when giving people &amp;#8220;a better way&amp;#8221;. It&amp;#8217;s possible to deliver obvious clarity about as easily as frustration and obfuscation in something so dear as the ability to educate and learn, all to uphold the &amp;#8220;simple and better&amp;#8221; philosophy. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>“These are the data.”</title>
+   <link href="http://botimer.github.com/posts/2008/03/29/these-are-the-data"/>
+   <updated>2008-03-29T13:19:36-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/29/these-are-the-data</id>
+   <content type="html">&lt;p&gt;Those of you who attended the Sakai conference in Atlanta might recognize that quote. It&amp;#8217;s attributable to &lt;a href='http://www.law.columbia.edu/fac/Eben_Moglen'&gt;Eben Moglen&lt;/a&gt; (&lt;a href='http://www.softwarefreedom.org/'&gt;SFLC&lt;/a&gt;), uttered during the &amp;#8220;lunch discussion&amp;#8221; with &lt;a href='http://investor.blackboard.com/phoenix.zhtml?c=177018&amp;amp;dc=177018&amp;amp;p=irol-govBio&amp;amp;ID=117644'&gt;Matthew Small&lt;/a&gt; (&lt;a href='http://www.blackboard.com/'&gt;Blackboard&lt;/a&gt;). &amp;#8220;These are the data,&amp;#8221; is a quote I&amp;#8217;ve used countless times in the past 16 months. I&amp;#8217;ll explain in a moment.&lt;/p&gt;
+
+&lt;p&gt;So, fast-forward, and we see posts from &lt;a href='http://www.mfeldstein.com/'&gt;Michael Feldstein&lt;/a&gt; on the &lt;a href='http://mfeldstein.com/all-44-blackboard-patent-claims-invalidated-by-uspto/'&gt;initial invalidation of all 44 claims&lt;/a&gt; and &lt;a href='http://mfeldstein.com/blackboard-fails-statistics-101/'&gt;Blackboard&amp;#8217;s response&lt;/a&gt;. The latter post (and Bb&amp;#8217;s statement) is specifically about the percentages of patents that are upheld, invalidated, or altered under reexamination. This is the exact context of Dr. Moglen&amp;#8217;s original quote. He presented some hard figures and summed up with those ringing words.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not going to beat up on Blackboard &amp;#8211; they&amp;#8217;re looking at the rules and playing the game. I completely disagree with software patents, but they&amp;#8217;re still allowed in the rulebook, so I can&amp;#8217;t blame them for filing before someone else did. Indeed, the applications were filed in 1999 and 2000. It was a different frontier with respect to the Internet, Free Software, and software patents then (see LZW, Unisys, SCO).&lt;/p&gt;
+
+&lt;p&gt;Personally, I thought it was pretty bad karma to file a press release of a patent and lawsuit on the same day, turning the red lights in people&amp;#8217;s minds into white hot light on the detailed claims. But then again, I&amp;#8217;m not on their strategy team. It&amp;#8217;s just too bad that we&amp;#8217;re tying up all the energy, time, and tax dollars, bickering over how we play in the same edusandbox and who gets how big a slice.&lt;/p&gt;
+
+&lt;p&gt;Anyway, there are 44 patent claims. Of the 10 issues set forth in the reexamination request, the rejections of 6 were adopted with modification, those of one without modification, and those of 3 were not adopted. The union of all adopted rejections deems that all of the claims set forth in United States Patent 6,988,138 are unpatentable. These are the data. -NB&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can download the audio of the lunch session from the Sakai &lt;a href='http://confluence.sakaiproject.org/confluence/x/doU'&gt;Confluence page&lt;/a&gt;. There is also a &lt;a href='http://www.immagic.com/eLibrary/GENERAL/IMM/I061207F.pdf'&gt;transcript&lt;/a&gt; from Jim Farmer.&lt;/em&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Dojo Storage — A timely treat</title>
+   <link href="http://botimer.github.com/posts/2008/03/17/dojo-storage-a-timely-treat"/>
+   <updated>2008-03-17T20:16:25-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/17/dojo-storage-a-timely-treat</id>
+   <content type="html">&lt;p&gt;Every so often, something goes your way, ya know? So, last Thursday, I posted to sakai-dev asking whether I should use dojox.storage or borrow some stuff from rWiki:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.nabble.com/Flash-storage----dojo.storage-or-homebrew--td16033853.html'&gt;http://www.nabble.com/Flash-storage&amp;#8212;-dojo.storage-or-homebrew&amp;#8211;td16033853.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It also just so happens that the main guy behind dojox.storage, Brad Neuberg, apparently felt like being a kind soul, did a ton of refactoring work, and bundled up the smallest, most practical package possible for my immediate need and posted it, not three hours later:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://codinginparadise.org/weblog/2008/03/easy-download-of-dojo-storage-for.html'&gt;http://codinginparadise.org/weblog/2008/03/easy-download-of-dojo-storage-for.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So far, it&amp;#8217;s really easy to use (about 15 total lines, and tastes like HashMap) and moves between browsers very well. I&amp;#8217;m only having one issue on IE. It&amp;#8217;s choking on line 52 of some unnamed file that a little Googling hints is related to the Flash plugin. (For the curious, it&amp;#8217;s an Object Required error in &lt;strong&gt;flash&lt;/strong&gt;removeCallback()&amp;#8230;)&lt;/p&gt;
+
+&lt;p&gt;I guess this can happen with different ways of including SWF files &amp;#8211; the confusing bit is that one thread says use the HTML embedding, rather than JavaScript, and another says to use JavaScript rather than HTML. The tricky part is that both seemed to fix it.&lt;/p&gt;
+
+&lt;p&gt;So, I&amp;#8217;m going to test on a machine that doesn&amp;#8217;t have script debugging turned on and hope for the best. If it doesn&amp;#8217;t grumble too badly, I&amp;#8217;ll poke around for a fix in my spare time.&lt;/p&gt;
+
+&lt;p&gt;Either way &amp;#8211; Cheers, Brad! You really made my day. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Personal artifacts vs. official purposes</title>
+   <link href="http://botimer.github.com/posts/2008/03/09/personal-artifacts-vs-official-purposes"/>
+   <updated>2008-03-09T18:15:29-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/09/personal-artifacts-vs-official-purposes</id>
+   <content type="html">&lt;p&gt;How long should personal artifacts submitted in some official capacity be viewable (by learner or official) in their original state? How we can let learners really own their materials?&lt;/p&gt;
+
+&lt;p&gt;We&amp;#8217;ve approached this problem to date by ignoring it. We make an explicit step: at some point, we force to student to say &amp;#8221;I&amp;#8217;m done with this thing and it&amp;#8217;s yours forever&amp;#8221;, and lock it. Or we just let it be malleable forever.&lt;/p&gt;
+
+&lt;p&gt;This is directly analogous to how, in logic, math, and computer science, we sometimes restrict input to maintain a lower conceptual threshold. Persistence and security of artifacts is a really hard problem, so we make sure it can&amp;#8217;t destabilize the easier ones we&amp;#8217;re solving, by distilling a complex grey gradient into blacks and whites.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s a perfectly valid way to get a foundation, but it&amp;#8217;s time to move into our version of second-order logic &amp;#8211; versioned, purpose-stamped, multi-threaded artifacts &amp;#8211; to address our complex realities. We can&amp;#8217;t lie to ourselves and believe that hard-locking a student&amp;#8217;s file forever is practical in a personal learning experience.&lt;/p&gt;
+
+&lt;p&gt;The specific thought that triggered this post was that the notion of estimated secure lifetime in cryptography is relevant to visible/storage lifetime in ePortfolios. However, this post also includes thoughts on the concepts of fluid artifacts being copied and made concrete at submission time, and how this relates to our existing web/email usage patterns.&lt;/p&gt;
+
+&lt;p&gt;Lots more below the break.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h3 id='useful_lifetime'&gt;Useful Lifetime&lt;/h3&gt;
+
+&lt;p&gt;In cryptography, there is a notion that the encryption should be strong enough that the estimated time to break it is longer than the sensitivity of the information. There is a general acceptance that, if it&amp;#8217;s possible to decrypt the message legitimately, then someone could do it illegitimately.&lt;/p&gt;
+
+&lt;p&gt;We just try to make sure that it would take a suitably long time (a few years to steal a single credit card number from an intercepted e-commerce transaction, for example). Security of physical safes is similarly rated on estimated and actual time to crack by an expert.&lt;/p&gt;
+
+&lt;p&gt;It seems to me that we should consider the &amp;#8220;useful lifetime&amp;#8221; of submitted versions of user data in Sakai and ePortfolios. It&amp;#8217;s kind of the inverse, where it&amp;#8217;s not the notion of how long it&amp;#8217;ll take the bad guys to get in, but the notion of how long the good guys can get in, and for what purposes, before the thing fades away.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t think this will lead a simple answer, but accepting that the valuable lifetime isn&amp;#8217;t &amp;#8220;forever&amp;#8221; seems to be a start. Automatic, timestamped copies with a defined lifetime for a specific purpose is a tractable scenario. And it gives institutions a cutpoint to say when data can be archived and/or deleted from their live systems. Defining when the stuff goes from mutable to snapshotted &amp;#8211; with a sensible UI &amp;#8211; is the tricky part.&lt;/p&gt;
+
+&lt;h3 id='metaphors_already_in_use'&gt;Metaphors Already In Use&lt;/h3&gt;
+
+&lt;p&gt;There is one application people employ every day that doesn&amp;#8217;t seem to get much attention for its parallels to this problem: &lt;strong&gt;email&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lacking sophisticated, intuitive software to collaborate on living information, people unconsciously send emails containing the two critically differentiable components: &lt;strong&gt;links&lt;/strong&gt; and &lt;strong&gt;attachments&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Links refer to some live resource that could change between the time the email went out and when it&amp;#8217;s consumed. Unless the recipient manually archives the resource, they have no reasonable expectation that it will remain unchanged. They might be annoyed if a link goes dead or an article is deleted, but the effect of visiting a link is understood in the context of time-sensitivity. (Just grab a magazine from 2000, try the URLs you find and see what happens&amp;#8230;)&lt;/li&gt;
+
+&lt;li&gt;Attachments are concrete manifestations of things that were alive until &amp;#8220;Send&amp;#8221; was pressed. If the recipient is on vacation or sabbatical for two months, the resource waits, patiently, unchanged in the inbox. Emails with attachments are, themselves, unaffected by the passage of time. (Look at a JC Penny catalog from 1980; all of the information is outdated, but intact.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As soon as we move away from this familiar, learned metaphor of email, all sanity breaks down. In a learning system or ePortfolio, we get frustrated when resources are locked; we get frustrated when they change. We can&amp;#8217;t seem to make any sense of the balance between personal rights and abilities, and the official or accountability needs.&lt;/p&gt;
+
+&lt;p&gt;For the system / builders, accountability wins, because accountability pays the bills. &lt;em&gt;See &lt;a href='/posts/2008/03/09/sakai-and-osp-development-accountability-personalization'&gt;my post on this within Sakai&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For the users, it continues to be a painful problem and they end up saying things like &amp;#8221;I&amp;#8217;ll just make a document and email it. At least that&amp;#8217;s simple and I know what I&amp;#8217;ll get.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;We never realize that the users are telling us what they need &amp;#8211; we just need to implement it in the system in a way that isn&amp;#8217;t onerous.&lt;/p&gt;
+
+&lt;p&gt;In reality, I think the users need to give an inch and the system needs to give a mile. The digital world is moving toward versioning, so there is some user adaptation needed. But we can&amp;#8217;t force-feed a &amp;#8220;better way&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;At least ten or twenty aspects of learning/portfolio systems depend on getting this right. And &lt;em&gt;right&lt;/em&gt; means &lt;em&gt;easy&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The only thing we should add to the user&amp;#8217;s world is the ability to make a tag (in the source control parlance) in some specific spot or make a live link. I think switching a connection between the live version and a tagged version is actually the critical user component, but it must be trivially simple.&lt;/p&gt;
+
+&lt;p&gt;I suspect &amp;#8220;locking&amp;#8221; workflow steps could be implemented as automatic tagging. Those autotags would be identical save for lasting for a specific period, being visible to others based on appropriate rules, and not convertible/detachable.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m naively hopeful that the mainstreaming of versioning (in Google Docs, &amp;#8220;Track Changes&amp;#8221;, wikis, source control, document management systems, JCR, etc.) will give us all some internal understanding of how digital information exists infinitely &amp;#8211; as opposed to the discrete physical counterparts &amp;#8211; and how to manage it. Don&amp;#8217;t laugh just yet &amp;#8211; you don&amp;#8217;t think about your understanding of emailing links vs. attachments; you just do it.&lt;/p&gt;
+
+&lt;p&gt;One very interesting thing I&amp;#8217;ve noticed in Google Docs: there are automatic drafts that happen while authoring, and you can switch between them at leisure until you save. Then the interim, uninteresting junk fades from view &amp;#8211; a sophisticated technique to maintain sanity in the user&amp;#8217;s world.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not sure why the topics of cryptography and email haven&amp;#8217;t come up in this conversation. I just hope that considering what people use and do implicitly every day gives us some traction on a practical set of solution strategies. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sakai and OSP — development, accountability, personalization</title>
+   <link href="http://botimer.github.com/posts/2008/03/09/sakai-and-osp-development-accountability-personalization"/>
+   <updated>2008-03-09T16:27:49-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/09/sakai-and-osp-development-accountability-personalization</id>
+   <content type="html">&lt;p&gt;Sakai/OSP development is expensive, so it&amp;#8217;s hard to find funding prioritized for the &amp;#8220;soft&amp;#8221; benefits of personal ownership and development that might not jive with the &amp;#8220;hard&amp;#8221; outcomes understood as necessary for accountability.&lt;/p&gt;
+
+&lt;p&gt;I believe these &amp;#8220;soft&amp;#8221; outcomes can communicate accountability just as well, and even better, but it&amp;#8217;s a much more intensive project that needs smart, creative, dedicated people over time. The consumable accountability data needs to be assembled as a secondary product, as opposed to the primary, &amp;#8220;automatic&amp;#8221; data products of rigid accountability measures. &lt;em&gt;(&amp;#8230;which feel a bit like TPS reports to student, faculty, and implementors, in my experience.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is one area where the &amp;#8220;lower bar&amp;#8221; open source systems have an apparent upper hand in development. Good portions of the development happens by motivated folks who have some time to give to personalization. It&amp;#8217;s easy enough to &amp;#8220;get in&amp;#8221; that essentially unfunded effort bolsters those aspects.&lt;/p&gt;
+
+&lt;p&gt;I believe that, in today&amp;#8217;s higher education climate, any system that doesn&amp;#8217;t address accountability in a systematic fashion will fall out of favor very quickly at any institution where the words &amp;#8220;ePortfolio&amp;#8221; and &amp;#8220;assessment&amp;#8221; have been uttered in the same sentence. It&amp;#8217;s really hard to build a realistic accountability system in your spare time, out of the context of a real accountability project.&lt;/p&gt;
+
+&lt;p&gt;This is where Sakai/OSP is uniquely positioned. We&amp;#8217;re admittedly a bit behind on personalization, but that is changing quickly. At the same time, we have a depth of reach into the &amp;#8220;regular&amp;#8221; learning system activities and assessment capacities that&amp;#8217;s unparalleled. It&amp;#8217;s also a primary goal for a number of us to make raw development much easier. I really believe the 2.6 release has the potential to change the game. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Eclipse Ganymede (3.4) - Still no Visual Editor?</title>
+   <link href="http://botimer.github.com/posts/2008/03/09/eclipse-ganymede-34-still-no-visual-editor"/>
+   <updated>2008-03-09T13:50:26-04:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/09/eclipse-ganymede-34-still-no-visual-editor</id>
+   <content type="html">&lt;p&gt;About a year ago, I was anxious that an upgrade from the &lt;a href='http://www.eclipse.org/vep/WebContent/main.php'&gt;Visual Editor Project&lt;/a&gt; might be included in the Eclipse Europa (3.3) release&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m a big fan of the portability, speed, and general native feel of SWT, and I&amp;#8217;m generally a fan of the Eclipse setup. I&amp;#8217;ve also done a good bit of C# stuff for hacking out GUIs for one-off apps. It&amp;#8217;s actually easier than dealing with console scripts and you can hand off an .exe to let someone accomplish something without a proper shell. Given that working with Sakai is pretty Java-intensive, and that I was bouncing between OSX/XP, I figured these lightweight admin-style GUIs could be hacked together in SWT&amp;#8230; Boy, was I wrong.&lt;/p&gt;
+
+&lt;p&gt;I admire the complexity of a GUI builder that generates all kinds of layout code, etc. It&amp;#8217;s definitely not something I want to take on as a project right now. But, I&amp;#8217;m pretty frustrated with the VEP. It missed the Europa bundle &amp;#8211; no big deal, I thought &amp;#8211; &amp;#8220;there&amp;#8217;ll be a package soon enough; this is important stuff&amp;#8221;. Along comes October (three full months later), and this is posted on the main page:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='Visual Editor + Europa == ouch' src='/images/2008/03/vep-notice-narrow.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;To my knowledge, this is the only official status update from the VEP since. While scraping the blogs and forums, I found one guy who seems to be maintaining unofficial builds, but I don&amp;#8217;t see any active development at all. If you&amp;#8217;re dangerous, you can check out &lt;a href='http://www.ehecht.com/eclipse_ve/ve.html'&gt;http://www.ehecht.com/eclipse_ve/ve.html&lt;/a&gt; &amp;#8211; he even has a Ganymede M3-compatible bundle &amp;#8211; I&amp;#8217;m too &lt;del&gt;scared&lt;/del&gt; &lt;del&gt;disinterested&lt;/del&gt; busy to spend the time.&lt;/p&gt;
+
+&lt;p&gt;And now that NetBeans has released 6.0 with cleaned up usability and the actually-funded Matisse, I&amp;#8217;m really starting to wonder if I should give it another look. Another really cool feature I saw demoed was live model diagrams with full round-tripping right in the IDE. And they seem to have a BPEL designer integrated, which tickles my SOA side.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m not giving up on Eclipse, but I treat free software kind of like free agency: I use and probably contribute to what works for me. The adoption/switching cost is based on learning/porting time and, for an IDE, I figure that to be about two weekends of hacking to get productive. If I can crank up and save a few hours at a crack by being able to whip up a GUI and evolve a new data model with autodiagrams, it&amp;#8217;s pretty tempting. -NB&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>First impressions of Office 2008</title>
+   <link href="http://botimer.github.com/posts/2008/03/05/first-impressions-of-office-2008"/>
+   <updated>2008-03-05T23:20:19-05:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/05/first-impressions-of-office-2008</id>
+   <content type="html">&lt;p&gt;Well, I installed Office 2008 for Mac yesterday, and I&amp;#8217;m pretty impressed, all in all.&lt;/p&gt;
+
+&lt;p&gt;Entourage was the first thing I gave a romp, and it seems to be a big improvement. It feels a lot more natural than my last, admittely brief, encounter. There are some pretty handy keyboard shortcuts and the modes seem practical enough. There are a couple of shortcuts that hurt my brain and scare me a little, though, too. Namely, these are Cmd-K for check mail (empty trash in Mail.app), and Cmd-Enter to send a message (seems pretty easy to send an incomplete message).&lt;/p&gt;
+
+&lt;p&gt;The big keyboard atrocity, however, is that Cmd-Left and Cmd-Right jump words exactly like Opt-Arrows. Home and End go to the beginning and end of the line, so it feels 95% Mac except during the rare task of writing an email. I&amp;#8217;m really hoping for a patch for some configuration options.&lt;/p&gt;
+
+&lt;p&gt;There are three other annoyances that will probably stop me from running it during the day, though. First, when you have 10 folders in an IMAP server and it checks them all every minute, and goes &lt;em&gt;bonk, bonk, bonk, bonk&lt;/em&gt; for every one without new messages, it gets a bit old. Second, when there is new mail in any folder, the new mail sound plays, the dock/switcher icon updates to show an unnumbered envelope, and I haven&amp;#8217;t found a way to know which folder it landed in. Third, you can&amp;#8217;t specify any other sounds based on rules; so my subtle audio coding based on probable importance doesn&amp;#8217;t apply.&lt;/p&gt;
+
+&lt;p&gt;Word 2008 is a huge improvement at first pass. I could never get comfortable in 2004, and 2008 seems a bit more responsive, which makes sense, given that it&amp;#8217;s a Universal app. It still has the obnoxious behavior of opening and closing the inspector panels because it knows better than I do what I want on the screen, but I guess the long-term Mac-Word users would balk at anything else. Track changes frustrates me the same as always. I don&amp;#8217;t really care about the missing VBA stuff. The big thing is that it just feels more native now.&lt;/p&gt;
+
+&lt;p&gt;I really do wish it had the ribbon, though. I&amp;#8217;ve only thought &amp;#8220;wow, that&amp;#8217;s refreshing&amp;#8221; about a handful of things in the past 5 years &amp;#8211; the ribbon was one of them. I know it seems like a love-it/hate-it thing for now, but I think they did a really nice job on representing categories of intent (with relevant actions), and that we&amp;#8217;ll see ribbon-style stuff replacing the &amp;#8220;pile of icons&amp;#8221; toolbar mess that is today&amp;#8217;s UI world. Just look at Photoshop or any of the Mac apps with icon-paged inspectors for some UX cousins.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve only just launched Excel &amp;#8211; I haven&amp;#8217;t tried to accomplish anything in it yet. It does look significantly more usable and readable, though. I hard a very hard time handling Excel 2004; probably the most difficult was the keyboard handling. I just couldn&amp;#8217;t wrap my head around Ctrl-U for &amp;#8220;Edit Cell Contents&amp;#8221;. The general tiny/choppy font was tough, too. I&amp;#8217;m holding out hope this time around.&lt;/p&gt;
+
+&lt;p&gt;If nothing else, I have iWork &amp;#8216;08/Mail.app and NeoOffice/Thunderbird to round out the options. :)&lt;/p&gt;
+
+&lt;p&gt;As a last thought, when I started typing this, the light went on as to why Firefox looked a little different &amp;#8211; and, honestly, a lot better &amp;#8211; in the past day or two. Georgia is a pretty nice font compared to the stock replacement in 2.0.0.12. It seems like Verdana and maybe a couple of others got upgrades, too. It&amp;#8217;s &lt;em&gt;almost&lt;/em&gt; as clean as Safari now.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Well, I guess this is it…</title>
+   <link href="http://botimer.github.com/posts/2008/03/01/well-i-guess-this-is-it"/>
+   <updated>2008-03-01T10:29:21-05:00</updated>
+   <id>http://botimer.github.com/posts/2008/03/01/well-i-guess-this-is-it</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve held out on this blog thing even longer than I did on ICQ (remember that thing?)&amp;#8230; I guess I&amp;#8217;ve finally broken down. Three things have inspired me, I suppose:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;We&amp;#8217;re doing some work with the notions of the read-write web (2.0?), ePortfolios, and digital authorship, so I guess I should get on board a little.&lt;/li&gt;
+
+&lt;li&gt;I need an indexed place to jot thoughts and share them, as we approach a six-month development sprint in Sakai/OSP.&lt;/li&gt;
+
+&lt;li&gt;I&amp;#8217;ve finally accepted that I will never have a chance to make that community knowledge base / code snippet site I&amp;#8217;ve been planning for five years.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, I guess it&amp;#8217;s obligatory at this point: First Post!!111&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

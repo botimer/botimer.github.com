@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Aptana + Vista + PHP + Oracle XE == Victory! &mdash; noah</title>
+    
+    <meta name="author" content="Noah Botimer">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/pygments-manni.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">noah</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Aptana + Vista + PHP + Oracle XE == Victory! </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>So, I&#8217;m doing some development against Oracle with PHP and really wanted <a href='http://www.oracle.com/technology/products/database/xe/index.html'>Express Edition</a> on a local machine to be able to hack without a lot of messing around (my other Oracle instances are behind VPNs, etc.)  I&#8217;ve also been thinking about hooking my desktop back up for one of those environment changes that results in a productivity boost.  A third factor is that I want to do this development in <a href='http://aptana.com/studio'>Aptana</a> because, well, it&#8217;s just plain sweet.  Easily said&#8230;</p>
+<!--more-->
+<p>&#8230;and pretty easily done once the steps are laid out.</p>
+
+<p>The Aptana Studio and XE installs were both cake.  I love that, however it has come about, &#8220;just works&#8221; is finally taking hold across all three big platforms.  I also highly recommend <a href='http://www.oracle.com/technology/products/database/sql_developer/index.html'>SQL Developer</a> (so far, anyway.)  For anyone who&#8217;s worked extensively with SQL Server 2000, this thing feels like Query Analyzer, and I couldn&#8217;t be happier.</p>
+
+<p>So, what&#8217;s the problem?</p>
+
+<p>Well, Aptana has that very slick integrated PHP instance, and I don&#8217;t plan to do anything beyond that&#8230; but it doesn&#8217;t ship with the Oracle extensions.  After enough poking around, I was pleased to find that the extensions are stored in one of the Aptana plugin directories, and the php.ini files are there, too.  This just leaves getting the DLLs and dropping/enabling them.</p>
+
+<p>To get to the goods, assuming Aptana and XE are installed:</p>
+
+<ol>
+<li>Download <a href='http://pecl4win.php.net/ext.php/php_oci8.dll'>php_oci8.dll</a> and <a href='http://pecl4win.php.net/ext.php/php_pdo_oci.dll'>php_pdo_oci.dll</a> from <a href='http://pecl4win.php.net/index.php'>PECL4WIN</a>. (Aptana 1.2 ships PHP 5.2.5, so grab 5.2)</li>
+
+<li>Drop these into <code>...Aptana Studio\plugins\com.aptana.ide.php.interpreters.win32.x86_5.3.14.v20081007\resources\php5\ext</code></li>
+
+<li>Add your extensions to the php.ini files in <code>...resources\php_xdebug</code> and <code>...resources\php_zend_debugger</code></li>
+</ol>
+
+<p>That&#8217;s it.  Now you can connect to Oracle instances.  I, personally, prefer PDO, so included the driver in the directions.  You wouldn&#8217;t need this if you were doing raw OCI.  For a cheatsheet, the connection looks like this: <code>$dbh = new PDO(&quot;oci://host/SID&quot;, &quot;user&quot;, &quot;pass&quot;);</code>  With a local XE, the default would be <code>//localhost/xe</code>.  I hope this saves someone the couple of hours I spent messing around. -NB</p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/posts/2008/10/25/adium-logs-make-it-very-slow" title="Adium logs make it very slow" accesskey="p">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker" title="Sakai JSONP callbacks in Entity Broker" accesskey="n">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'botimer'; // required: replace example with your forum shortname
+    var disqus_identifier = '23 http://botimer.github.com/?p=23';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>23 November 2008</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="/tags.html#aptana-ref">aptana <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#oracle-ref">oracle <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#php-ref">php <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#vista-ref">vista <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#windows-ref">windows <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Noah Botimer 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

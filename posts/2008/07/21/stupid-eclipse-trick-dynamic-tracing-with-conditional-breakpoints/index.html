@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stupid Eclipse trick — Dynamic Tracing with Conditional Breakpoints &mdash; noah</title>
+    
+    <meta name="author" content="Noah Botimer">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/pygments-manni.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">noah</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Stupid Eclipse trick — Dynamic Tracing with Conditional Breakpoints </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>So I&#8217;m debugging a chain of Sakai helpers and I ask myself&#8230;</p>
+
+<p>&#8220;Self, is there an easy way to use the Eclipse debugger to fake some runtime/dynamic tracing?&#8221;</p>
+
+<p>And the answer is a resounding &#8220;yes!&#8221;</p>
+
+<p>If you set up conditional breakpoints at the places where you want those debug statements and inject some great println justice, magic is made. Eclipse is also nice enough to allow blocks of code or expressions. This means you can use just the println like an expression if you don&#8217;t care about the breaks, or make a println and a return if you do. See the screenshot for a somewhat nonsensical example.</p>
+
+<p>All of this can be yours with a single startup of Tomcat and a tail -f. If you&#8217;re lucky enough to be hacking something in *-tool, life is even better. Save, mvn install sakai:deploy, relaunch your debug scenario, and keep an eye on that terminal. Somebody who knows what they&#8217;re doing with Eclipse could probably tell you how to even target an IDE view &#8211; catalina.out is fine for me, though.</p>
+
+<p>&#8230;And for quick reference, you can right click on a breakpoint in the left-hand trough and select Breakpoint properties or use the Breakpoints view. On a Mac, Cmd-Shift-B toggles a breakpoint on a line, but getting to the properties with the keyboard is a pain (Opt-Shift-Q, B). In there, a natural-feeling sequence of arrows and Opt-Enter or a right click opens the dialog. Getting back to the editor is easier: F12.</p>
+
+<p><img alt='Conditional Breakpoint Properties' src='/images/2008/07/cond-break.png' /></p>
+
+<p>Happy hacking! -NB</p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage" title="Flash 9.0.16.0 does NOT play nicely with local storage" accesskey="p">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/posts/2008/10/02/php-json_encode-is-quirky" title="PHP json_encode is quirky" accesskey="n">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'botimer'; // required: replace example with your forum shortname
+    var disqus_identifier = '19 http://botimer.github.com/?p=19';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>21 July 2008</span></div>
+
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Noah Botimer 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+

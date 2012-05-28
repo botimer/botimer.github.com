@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PHP json_encode is quirky &mdash; noah</title>
+    
+    <meta name="author" content="Noah Botimer">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/twitter/css/pygments-manni.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">noah</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>PHP json_encode is quirky </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>So, amidst an interesting fight with CakePHP, I was fortunate enough to spot a quirk in <a href='http://php.net/json_encode'><code>json_encode</code></a> when passing arrays. If you have a typical ordinal array, life is good. If you have a typical associative array, life is good. The quirk is in how PHP decides what you have.</p>
+
+<p><em>We define &#8220;life is good&#8221; here as: you pass something without meaningful keys, you get an array; you pass something with meaningful keys, you get an object.</em></p>
+
+<p>When you have a regular old array of values (or rows of a result set, in my case) and you filter it with, e.g., <a href='http://php.net/array_filter'><code>array_filter</code></a>, you can end up with holes in the ordinal numbering.  This delights <a href='http://php.net/json_encode'><code>json_encode</code></a>, which displays its exceptional, &#8220;just works&#8221; intelligence, giving you an object full of numeric indexes pointing at what you thought would be unnamed items in an array.  In some cases, this makes no difference but, in some, it can be a big problem.</p>
+
+<p>Fortunately, I&#8217;m generally in tune enough with the stylings of PHP that I went straight to trying <a href='http://php.net/array_values'><code>array_values</code></a> &#8211; and now, all is right with the world. Just wrap any <a href='http://php.net/array_filter'><code>array_filter</code></a> calls with <a href='http://php.net/array_values'><code>array_values</code></a> if you plan to turn the goods into JSON. -NB</p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints" title="Stupid Eclipse trick — Dynamic Tracing with Conditional Breakpoints" accesskey="p">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next"><a href="/posts/2008/10/25/adium-logs-make-it-very-slow" title="Adium logs make it very slow" accesskey="n">Next &rarr;</a></li>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'botimer'; // required: replace example with your forum shortname
+    var disqus_identifier = '21 http://botimer.github.com/?p=21';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>02 October 2008</span></div>
+
+  
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    
+    
+
+
+  
+     
+    	<li><a href="/tags.html#php-ref">php <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#json-ref">json <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Noah Botimer 2012 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+
