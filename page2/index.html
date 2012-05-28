@@ -134,7 +134,26 @@ $.getJSON(&#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=?&#3
           <h1><a href="/posts/2008/11/23/aptana-vista-php-oracle-xe-victory">Aptana + Vista + PHP + Oracle XE == Victory!</a></h1>
           <p class="meta">November 23, 2008</p>
             <p>So, I&#8217;m doing some development against Oracle with PHP and really wanted <a href='http://www.oracle.com/technology/products/database/xe/index.html'>Express Edition</a> on a local machine to be able to hack without a lot of messing around (my other Oracle instances are behind VPNs, etc.)  I&#8217;ve also been thinking about hooking my desktop back up for one of those environment changes that results in a productivity boost.  A third factor is that I want to do this development in <a href='http://aptana.com/studio'>Aptana</a> because, well, it&#8217;s just plain sweet.  Easily said&#8230;</p>
-<p class='more'><a href='/posts/2008/11/23/aptana-vista-php-oracle-xe-victory'>Continue reading &rarr;</a></p>
+<!--more-->
+<p>&#8230;and pretty easily done once the steps are laid out.</p>
+
+<p>The Aptana Studio and XE installs were both cake.  I love that, however it has come about, &#8220;just works&#8221; is finally taking hold across all three big platforms.  I also highly recommend <a href='http://www.oracle.com/technology/products/database/sql_developer/index.html'>SQL Developer</a> (so far, anyway.)  For anyone who&#8217;s worked extensively with SQL Server 2000, this thing feels like Query Analyzer, and I couldn&#8217;t be happier.</p>
+
+<p>So, what&#8217;s the problem?</p>
+
+<p>Well, Aptana has that very slick integrated PHP instance, and I don&#8217;t plan to do anything beyond that&#8230; but it doesn&#8217;t ship with the Oracle extensions.  After enough poking around, I was pleased to find that the extensions are stored in one of the Aptana plugin directories, and the php.ini files are there, too.  This just leaves getting the DLLs and dropping/enabling them.</p>
+
+<p>To get to the goods, assuming Aptana and XE are installed:</p>
+
+<ol>
+<li>Download <a href='http://pecl4win.php.net/ext.php/php_oci8.dll'>php_oci8.dll</a> and <a href='http://pecl4win.php.net/ext.php/php_pdo_oci.dll'>php_pdo_oci.dll</a> from <a href='http://pecl4win.php.net/index.php'>PECL4WIN</a>. (Aptana 1.2 ships PHP 5.2.5, so grab 5.2)</li>
+
+<li>Drop these into <code>...Aptana Studio\plugins\com.aptana.ide.php.interpreters.win32.x86_5.3.14.v20081007\resources\php5\ext</code></li>
+
+<li>Add your extensions to the php.ini files in <code>...resources\php_xdebug</code> and <code>...resources\php_zend_debugger</code></li>
+</ol>
+
+<p>That&#8217;s it.  Now you can connect to Oracle instances.  I, personally, prefer PDO, so included the driver in the directions.  You wouldn&#8217;t need this if you were doing raw OCI.  For a cheatsheet, the connection looks like this: <code>$dbh = new PDO(&quot;oci://host/SID&quot;, &quot;user&quot;, &quot;pass&quot;);</code>  With a local XE, the default would be <code>//localhost/xe</code>.  I hope this saves someone the couple of hours I spent messing around. -NB</p>
         </div>
       
         <div class="post">
