@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>noah</title>
- <link href="http://botimer.github.com/atom.xml" rel="self"/>
- <link href="http://botimer.github.com"/>
- <updated>2012-05-28T12:03:46-04:00</updated>
- <id>http://botimer.github.com</id>
+ <link href="http://botimer.net/atom.xml" rel="self"/>
+ <link href="http://botimer.net"/>
+ <updated>2012-05-28T13:25:19-04:00</updated>
+ <id>http://botimer.net</id>
  <author>
    <name>Noah Botimer</name>
    <email>blog@botimer.net</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Thoughts on “Sakai OAE”</title>
-   <link href="http://botimer.github.com/posts/2010/11/04/thoughts-on-sakai-oae"/>
+   <link href="http://botimer.net/posts/2010/11/04/thoughts-on-sakai-oae"/>
    <updated>2010-11-04T10:02:42-04:00</updated>
-   <id>http://botimer.github.com/posts/2010/11/04/thoughts-on-sakai-oae</id>
+   <id>http://botimer.net/posts/2010/11/04/thoughts-on-sakai-oae</id>
    <content type="html">&lt;p&gt;If you haven&amp;#8217;t heard, there has been some rebranding effort in the Sakai community recently. The project formerly known as &amp;#8220;Sakai 3&amp;#8221; has been &lt;a href='http://sakaiproject.org/news/sakai-open-academic-environment-confirmed-official-sakai-foundation-project'&gt;dubbed&lt;/a&gt; the &lt;em&gt;Sakai Open Academic Environment&lt;/em&gt; (OAE). The reaction has been varied; some wonder why a name change at all, some don&amp;#8217;t especially care for the choice, some wonder why it wasn&amp;#8217;t chosen differently&amp;#8230;&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m writing this post to give my perspective of why this is a healthy community move, even if the exact name &amp;#8220;OAE&amp;#8221; doesn&amp;#8217;t stick.&lt;/p&gt;
@@ -32,9 +32,9 @@
  
  <entry>
    <title>Sakai Futures, part 2</title>
-   <link href="http://botimer.github.com/posts/2010/03/16/sakai-futures-part-2"/>
+   <link href="http://botimer.net/posts/2010/03/16/sakai-futures-part-2"/>
    <updated>2010-03-16T01:33:50-04:00</updated>
-   <id>http://botimer.github.com/posts/2010/03/16/sakai-futures-part-2</id>
+   <id>http://botimer.net/posts/2010/03/16/sakai-futures-part-2</id>
    <content type="html">&lt;p&gt;It seems that at least a couple of people read my &lt;a href='/posts/2010/03/13/sakai-futures'&gt;last editorial&lt;/a&gt;. I didn&amp;#8217;t expect to write a part 2, at least not here or now. But it&amp;#8217;s worth a bit of clarification&amp;#8230;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;See the very end for the &amp;#8220;bit&amp;#8221; part&amp;#8230;&lt;/em&gt;&lt;/p&gt;
@@ -82,9 +82,9 @@
  
  <entry>
    <title>Sakai Futures</title>
-   <link href="http://botimer.github.com/posts/2010/03/13/sakai-futures"/>
+   <link href="http://botimer.net/posts/2010/03/13/sakai-futures"/>
    <updated>2010-03-13T21:10:32-05:00</updated>
-   <id>http://botimer.github.com/posts/2010/03/13/sakai-futures</id>
+   <id>http://botimer.net/posts/2010/03/13/sakai-futures</id>
    <content type="html">&lt;p&gt;Something has been gnawing at me. Here is my initial assessment:&lt;/p&gt;
 
 &lt;p&gt;There are some gradual but quite significant changes coming to how the Sakai community works and releases software, and these changes are quite unclear.&lt;/p&gt;
@@ -216,9 +216,9 @@ I&amp;#39;m pretty free Thu. On Fri I have stuff scheduled 12:30-2 and 3-5 ET.&l
  
  <entry>
    <title>Dirt &amp; Grass</title>
-   <link href="http://botimer.github.com/posts/2010/01/12/dirt-grass"/>
+   <link href="http://botimer.net/posts/2010/01/12/dirt-grass"/>
    <updated>2010-01-12T17:35:32-05:00</updated>
-   <id>http://botimer.github.com/posts/2010/01/12/dirt-grass</id>
+   <id>http://botimer.net/posts/2010/01/12/dirt-grass</id>
    <content type="html">&lt;p&gt;Dirt and grass are beautiful. Rocks, twigs, and bugs, too. Sometimes this world recognizes only majestic cathedrals, all too happy to look past the essence of life.&lt;/p&gt;
 
 &lt;p&gt;This is a corollary to something I&amp;#8217;ve been struggling to articulate lately. Open source has made it; and because it has made it, people want to make it big. This is fine. I don&amp;#8217;t have a problem with big companies, big projects, big money, and the rest.&lt;/p&gt;
@@ -256,9 +256,9 @@ I&amp;#39;m pretty free Thu. On Fri I have stuff scheduled 12:30-2 and 3-5 ET.&l
  
  <entry>
    <title>Tweak working copy POMs without checking them in</title>
-   <link href="http://botimer.github.com/posts/2009/08/06/tweak-working-copy-poms-without-checking-them-in"/>
+   <link href="http://botimer.net/posts/2009/08/06/tweak-working-copy-poms-without-checking-them-in"/>
    <updated>2009-08-06T13:04:15-04:00</updated>
-   <id>http://botimer.github.com/posts/2009/08/06/tweak-working-copy-poms-without-checking-them-in</id>
+   <id>http://botimer.net/posts/2009/08/06/tweak-working-copy-poms-without-checking-them-in</id>
    <content type="html">&lt;p&gt;A handy little snippet&amp;#8230; This is something I&amp;#8217;ve used a few times when I&amp;#8217;m hacking in a working copy and need to change POMs for some local reason (usually versioning) but can&amp;#8217;t check them back in modified. I&amp;#8217;d like to tweak the POMs, work on other stuff, build/test, check everything &lt;em&gt;but&lt;/em&gt; the POMs in, rinse and repeat. Here&amp;#8217;s a workaround:&lt;/p&gt;
 &lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='bash'&gt;&lt;span class='nv'&gt;$ &lt;/span&gt;svn st | grep &lt;span class='s1'&gt;&amp;#39;^M&amp;#39;&lt;/span&gt; | grep &lt;span class='o'&gt;[&lt;/span&gt; &lt;span class='se'&gt;\/&lt;/span&gt;&lt;span class='o'&gt;]&lt;/span&gt;pom.xml&lt;span class='s1'&gt;&amp;#39; | sed &amp;#39;&lt;/span&gt;s/^.......//&lt;span class='s1'&gt;&amp;#39; | \&lt;/span&gt;
 &lt;span class='s1'&gt;  xargs -I{} svn diff {} &amp;gt; pom.patch&lt;/span&gt;
@@ -273,9 +273,9 @@ I&amp;#39;m pretty free Thu. On Fri I have stuff scheduled 12:30-2 and 3-5 ET.&l
  
  <entry>
    <title>Graceful AJAX degradation / progressive enhancement</title>
-   <link href="http://botimer.github.com/posts/2009/08/04/graceful-ajax-degradation-progressive-enhancement"/>
+   <link href="http://botimer.net/posts/2009/08/04/graceful-ajax-degradation-progressive-enhancement"/>
    <updated>2009-08-04T21:40:08-04:00</updated>
-   <id>http://botimer.github.com/posts/2009/08/04/graceful-ajax-degradation-progressive-enhancement</id>
+   <id>http://botimer.net/posts/2009/08/04/graceful-ajax-degradation-progressive-enhancement</id>
    <content type="html">&lt;p&gt;In one of those beautifully lucky moments, I found an article I was wishing I had kept track of last night. I was chatting with Chuck and Matt a week ago about the pervasion of script in web pages these days and how hardly anything degrades reasonably. For years, I refused script entirely but, now, I have fallen victim to the trend. &amp;#8220;Everybody has script enabled anyway. Mashups are inevitable. They want AJAX. Just script it.&amp;#8221; That doesn&amp;#8217;t mean that I don&amp;#8217;t still want to use &lt;a href='http://elinks.or.cz/'&gt;ELinks&lt;/a&gt; deep down.&lt;/p&gt;
 
 &lt;p&gt;So, I read one of those articles a while back where you feel a little bump and realize someone has lighted the path &amp;#8211; with the best kind of light, showing the unnoticed obviousness. It&amp;#8217;s like observing that HTTP actually works pretty well when you use it as carefully built, ten years after working around it furiously. It&amp;#8217;s like noticing that really ugly &lt;em&gt;(well structured, unstyled)&lt;/em&gt; web pages take the most beautiful CSS easily.&lt;/p&gt;
@@ -289,9 +289,9 @@ I&amp;#39;m pretty free Thu. On Fri I have stuff scheduled 12:30-2 and 3-5 ET.&l
  
  <entry>
    <title>Sakai JSONP callbacks in Entity Broker</title>
-   <link href="http://botimer.github.com/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker"/>
+   <link href="http://botimer.net/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker"/>
    <updated>2009-07-25T23:27:18-04:00</updated>
-   <id>http://botimer.github.com/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker</id>
+   <id>http://botimer.net/posts/2009/07/25/sakai-jsonp-callbacks-in-entity-broker</id>
    <content type="html">&lt;p&gt;So, I&amp;#8217;m going to try to get back in the habit. I owe Ray two posts, so this is a warmup. Anyway&amp;#8230;&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve just added JSONP callback support to Entity Broker. This allows you to make a data feed that can be used for mashups. The normal JSON feeds don&amp;#8217;t allow for this because, when the script tag is added, the object literal just drops into the ether &amp;#8211; it needs to be handed off to a function. Plenty of others are using this technique now and it&amp;#8217;s well supported in things like jQuery; just search around.&lt;/p&gt;
@@ -312,9 +312,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Aptana + Vista + PHP + Oracle XE == Victory!</title>
-   <link href="http://botimer.github.com/posts/2008/11/23/aptana-vista-php-oracle-xe-victory"/>
+   <link href="http://botimer.net/posts/2008/11/23/aptana-vista-php-oracle-xe-victory"/>
    <updated>2008-11-23T16:59:06-05:00</updated>
-   <id>http://botimer.github.com/posts/2008/11/23/aptana-vista-php-oracle-xe-victory</id>
+   <id>http://botimer.net/posts/2008/11/23/aptana-vista-php-oracle-xe-victory</id>
    <content type="html">&lt;p&gt;So, I&amp;#8217;m doing some development against Oracle with PHP and really wanted &lt;a href='http://www.oracle.com/technology/products/database/xe/index.html'&gt;Express Edition&lt;/a&gt; on a local machine to be able to hack without a lot of messing around (my other Oracle instances are behind VPNs, etc.)  I&amp;#8217;ve also been thinking about hooking my desktop back up for one of those environment changes that results in a productivity boost.  A third factor is that I want to do this development in &lt;a href='http://aptana.com/studio'&gt;Aptana&lt;/a&gt; because, well, it&amp;#8217;s just plain sweet.  Easily said&amp;#8230;&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;p&gt;&amp;#8230;and pretty easily done once the steps are laid out.&lt;/p&gt;
@@ -340,9 +340,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Adium logs make it very slow</title>
-   <link href="http://botimer.github.com/posts/2008/10/25/adium-logs-make-it-very-slow"/>
+   <link href="http://botimer.net/posts/2008/10/25/adium-logs-make-it-very-slow"/>
    <updated>2008-10-25T18:31:59-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/10/25/adium-logs-make-it-very-slow</id>
+   <id>http://botimer.net/posts/2008/10/25/adium-logs-make-it-very-slow</id>
    <content type="html">&lt;p&gt;I was seeing somewhere between 30 seconds and a minute to get to the keychain login, and another 30 seconds to bring up a contact list. Clean out the logs, relaunch &amp;#8211; about 4 seconds for each.&lt;/p&gt;
 
 &lt;p&gt;The logs live in &lt;code&gt;~/Library/Application Support/Adium 2.0/Users/Default&lt;/code&gt;. Remove or archive them and watch it fly. -NB&lt;/p&gt;</content>
@@ -350,9 +350,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>PHP json_encode is quirky</title>
-   <link href="http://botimer.github.com/posts/2008/10/02/php-json_encode-is-quirky"/>
+   <link href="http://botimer.net/posts/2008/10/02/php-json_encode-is-quirky"/>
    <updated>2008-10-02T19:14:52-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/10/02/php-json_encode-is-quirky</id>
+   <id>http://botimer.net/posts/2008/10/02/php-json_encode-is-quirky</id>
    <content type="html">&lt;p&gt;So, amidst an interesting fight with CakePHP, I was fortunate enough to spot a quirk in &lt;a href='http://php.net/json_encode'&gt;&lt;code&gt;json_encode&lt;/code&gt;&lt;/a&gt; when passing arrays. If you have a typical ordinal array, life is good. If you have a typical associative array, life is good. The quirk is in how PHP decides what you have.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;We define &amp;#8220;life is good&amp;#8221; here as: you pass something without meaningful keys, you get an array; you pass something with meaningful keys, you get an object.&lt;/em&gt;&lt;/p&gt;
@@ -364,9 +364,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Stupid Eclipse trick — Dynamic Tracing with Conditional Breakpoints</title>
-   <link href="http://botimer.github.com/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints"/>
+   <link href="http://botimer.net/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints"/>
    <updated>2008-07-21T22:33:34-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints</id>
+   <id>http://botimer.net/posts/2008/07/21/stupid-eclipse-trick-dynamic-tracing-with-conditional-breakpoints</id>
    <content type="html">&lt;p&gt;So I&amp;#8217;m debugging a chain of Sakai helpers and I ask myself&amp;#8230;&lt;/p&gt;
 
 &lt;p&gt;&amp;#8220;Self, is there an easy way to use the Eclipse debugger to fake some runtime/dynamic tracing?&amp;#8221;&lt;/p&gt;
@@ -386,9 +386,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Flash 9.0.16.0 does NOT play nicely with local storage</title>
-   <link href="http://botimer.github.com/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage"/>
+   <link href="http://botimer.net/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage"/>
    <updated>2008-04-03T18:46:55-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage</id>
+   <id>http://botimer.net/posts/2008/04/03/flash-90160-does-not-play-nicely-with-local-storage</id>
    <content type="html">&lt;p&gt;OK. So I thought I wasn&amp;#8217;t crazy. I reviewed my code. I tested Dojo versions. I isolated conditions. I followed dead-ends in desperation.&lt;/p&gt;
 
 &lt;p&gt;And then the problem goes away. I can&amp;#8217;t get SharedObject storage to break anywhere (and I&amp;#8217;m still not sure why it was broken, then magically fixed &amp;#8211; I suspect an update to the remote machine I was using, since the cluster is monitored/managed).&lt;/p&gt;
@@ -408,9 +408,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>37signals, entropy, and Sakai</title>
-   <link href="http://botimer.github.com/posts/2008/03/29/37signals-entropy-and-sakai"/>
+   <link href="http://botimer.net/posts/2008/03/29/37signals-entropy-and-sakai"/>
    <updated>2008-03-29T16:24:58-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/29/37signals-entropy-and-sakai</id>
+   <id>http://botimer.net/posts/2008/03/29/37signals-entropy-and-sakai</id>
    <content type="html">&lt;p&gt;Nathan Pearson, Sakai&amp;#8217;s lead for the UX Initiative just forwarded a &lt;a href='http://www.37signals.com/svn/posts/934-ira-glass-entropy-and-software-development'&gt;post from the 37signals blog&lt;/a&gt;. It&amp;#8217;s referencing a video interview with Ira Glass, where he talks about being a fierce editor and moderator, cutting more tape than you roll. The post extends the interview&amp;#8217;s mention of entropy as the disorganizing, enemy force to software.&lt;/p&gt;
 
 &lt;p&gt;In principle, I agree: entropy tends to bloat, delay, and complicate software. But the read-only experience of listener/viewer in storytelling is a bit different from daily use software. The post reveals some of the company&amp;#8217;s &amp;#8220;less is &lt;strike&gt;more&lt;/strike&gt; all&amp;#8221; philosophy.&lt;/p&gt;
@@ -434,9 +434,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>“These are the data.”</title>
-   <link href="http://botimer.github.com/posts/2008/03/29/these-are-the-data"/>
+   <link href="http://botimer.net/posts/2008/03/29/these-are-the-data"/>
    <updated>2008-03-29T13:19:36-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/29/these-are-the-data</id>
+   <id>http://botimer.net/posts/2008/03/29/these-are-the-data</id>
    <content type="html">&lt;p&gt;Those of you who attended the Sakai conference in Atlanta might recognize that quote. It&amp;#8217;s attributable to &lt;a href='http://www.law.columbia.edu/fac/Eben_Moglen'&gt;Eben Moglen&lt;/a&gt; (&lt;a href='http://www.softwarefreedom.org/'&gt;SFLC&lt;/a&gt;), uttered during the &amp;#8220;lunch discussion&amp;#8221; with &lt;a href='http://investor.blackboard.com/phoenix.zhtml?c=177018&amp;amp;dc=177018&amp;amp;p=irol-govBio&amp;amp;ID=117644'&gt;Matthew Small&lt;/a&gt; (&lt;a href='http://www.blackboard.com/'&gt;Blackboard&lt;/a&gt;). &amp;#8220;These are the data,&amp;#8221; is a quote I&amp;#8217;ve used countless times in the past 16 months. I&amp;#8217;ll explain in a moment.&lt;/p&gt;
 
 &lt;p&gt;So, fast-forward, and we see posts from &lt;a href='http://www.mfeldstein.com/'&gt;Michael Feldstein&lt;/a&gt; on the &lt;a href='http://mfeldstein.com/all-44-blackboard-patent-claims-invalidated-by-uspto/'&gt;initial invalidation of all 44 claims&lt;/a&gt; and &lt;a href='http://mfeldstein.com/blackboard-fails-statistics-101/'&gt;Blackboard&amp;#8217;s response&lt;/a&gt;. The latter post (and Bb&amp;#8217;s statement) is specifically about the percentages of patents that are upheld, invalidated, or altered under reexamination. This is the exact context of Dr. Moglen&amp;#8217;s original quote. He presented some hard figures and summed up with those ringing words.&lt;/p&gt;
@@ -452,9 +452,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Dojo Storage — A timely treat</title>
-   <link href="http://botimer.github.com/posts/2008/03/17/dojo-storage-a-timely-treat"/>
+   <link href="http://botimer.net/posts/2008/03/17/dojo-storage-a-timely-treat"/>
    <updated>2008-03-17T20:16:25-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/17/dojo-storage-a-timely-treat</id>
+   <id>http://botimer.net/posts/2008/03/17/dojo-storage-a-timely-treat</id>
    <content type="html">&lt;p&gt;Every so often, something goes your way, ya know? So, last Thursday, I posted to sakai-dev asking whether I should use dojox.storage or borrow some stuff from rWiki:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href='http://www.nabble.com/Flash-storage----dojo.storage-or-homebrew--td16033853.html'&gt;http://www.nabble.com/Flash-storage&amp;#8212;-dojo.storage-or-homebrew&amp;#8211;td16033853.html&lt;/a&gt;&lt;/p&gt;
@@ -474,9 +474,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Personal artifacts vs. official purposes</title>
-   <link href="http://botimer.github.com/posts/2008/03/09/personal-artifacts-vs-official-purposes"/>
+   <link href="http://botimer.net/posts/2008/03/09/personal-artifacts-vs-official-purposes"/>
    <updated>2008-03-09T18:15:29-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/09/personal-artifacts-vs-official-purposes</id>
+   <id>http://botimer.net/posts/2008/03/09/personal-artifacts-vs-official-purposes</id>
    <content type="html">&lt;p&gt;How long should personal artifacts submitted in some official capacity be viewable (by learner or official) in their original state? How we can let learners really own their materials?&lt;/p&gt;
 
 &lt;p&gt;We&amp;#8217;ve approached this problem to date by ignoring it. We make an explicit step: at some point, we force to student to say &amp;#8221;I&amp;#8217;m done with this thing and it&amp;#8217;s yours forever&amp;#8221;, and lock it. Or we just let it be malleable forever.&lt;/p&gt;
@@ -536,9 +536,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Sakai and OSP — development, accountability, personalization</title>
-   <link href="http://botimer.github.com/posts/2008/03/09/sakai-and-osp-development-accountability-personalization"/>
+   <link href="http://botimer.net/posts/2008/03/09/sakai-and-osp-development-accountability-personalization"/>
    <updated>2008-03-09T16:27:49-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/09/sakai-and-osp-development-accountability-personalization</id>
+   <id>http://botimer.net/posts/2008/03/09/sakai-and-osp-development-accountability-personalization</id>
    <content type="html">&lt;p&gt;Sakai/OSP development is expensive, so it&amp;#8217;s hard to find funding prioritized for the &amp;#8220;soft&amp;#8221; benefits of personal ownership and development that might not jive with the &amp;#8220;hard&amp;#8221; outcomes understood as necessary for accountability.&lt;/p&gt;
 
 &lt;p&gt;I believe these &amp;#8220;soft&amp;#8221; outcomes can communicate accountability just as well, and even better, but it&amp;#8217;s a much more intensive project that needs smart, creative, dedicated people over time. The consumable accountability data needs to be assembled as a secondary product, as opposed to the primary, &amp;#8220;automatic&amp;#8221; data products of rigid accountability measures. &lt;em&gt;(&amp;#8230;which feel a bit like TPS reports to student, faculty, and implementors, in my experience.)&lt;/em&gt;&lt;/p&gt;
@@ -552,9 +552,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Eclipse Ganymede (3.4) - Still no Visual Editor?</title>
-   <link href="http://botimer.github.com/posts/2008/03/09/eclipse-ganymede-34-still-no-visual-editor"/>
+   <link href="http://botimer.net/posts/2008/03/09/eclipse-ganymede-34-still-no-visual-editor"/>
    <updated>2008-03-09T13:50:26-04:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/09/eclipse-ganymede-34-still-no-visual-editor</id>
+   <id>http://botimer.net/posts/2008/03/09/eclipse-ganymede-34-still-no-visual-editor</id>
    <content type="html">&lt;p&gt;About a year ago, I was anxious that an upgrade from the &lt;a href='http://www.eclipse.org/vep/WebContent/main.php'&gt;Visual Editor Project&lt;/a&gt; might be included in the Eclipse Europa (3.3) release&amp;#8230;&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m a big fan of the portability, speed, and general native feel of SWT, and I&amp;#8217;m generally a fan of the Eclipse setup. I&amp;#8217;ve also done a good bit of C# stuff for hacking out GUIs for one-off apps. It&amp;#8217;s actually easier than dealing with console scripts and you can hand off an .exe to let someone accomplish something without a proper shell. Given that working with Sakai is pretty Java-intensive, and that I was bouncing between OSX/XP, I figured these lightweight admin-style GUIs could be hacked together in SWT&amp;#8230; Boy, was I wrong.&lt;/p&gt;
@@ -572,9 +572,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>First impressions of Office 2008</title>
-   <link href="http://botimer.github.com/posts/2008/03/05/first-impressions-of-office-2008"/>
+   <link href="http://botimer.net/posts/2008/03/05/first-impressions-of-office-2008"/>
    <updated>2008-03-05T23:20:19-05:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/05/first-impressions-of-office-2008</id>
+   <id>http://botimer.net/posts/2008/03/05/first-impressions-of-office-2008</id>
    <content type="html">&lt;p&gt;Well, I installed Office 2008 for Mac yesterday, and I&amp;#8217;m pretty impressed, all in all.&lt;/p&gt;
 
 &lt;p&gt;Entourage was the first thing I gave a romp, and it seems to be a big improvement. It feels a lot more natural than my last, admittely brief, encounter. There are some pretty handy keyboard shortcuts and the modes seem practical enough. There are a couple of shortcuts that hurt my brain and scare me a little, though, too. Namely, these are Cmd-K for check mail (empty trash in Mail.app), and Cmd-Enter to send a message (seems pretty easy to send an incomplete message).&lt;/p&gt;
@@ -596,9 +596,9 @@ $.getJSON(&amp;#39;http://sakai/direct/entity-prefix/some-id.jsonp?jsonCallback=
  
  <entry>
    <title>Well, I guess this is it…</title>
-   <link href="http://botimer.github.com/posts/2008/03/01/well-i-guess-this-is-it"/>
+   <link href="http://botimer.net/posts/2008/03/01/well-i-guess-this-is-it"/>
    <updated>2008-03-01T10:29:21-05:00</updated>
-   <id>http://botimer.github.com/posts/2008/03/01/well-i-guess-this-is-it</id>
+   <id>http://botimer.net/posts/2008/03/01/well-i-guess-this-is-it</id>
    <content type="html">&lt;p&gt;I&amp;#8217;ve held out on this blog thing even longer than I did on ICQ (remember that thing?)&amp;#8230; I guess I&amp;#8217;ve finally broken down. Three things have inspired me, I suppose:&lt;/p&gt;
 
 &lt;ol&gt;
